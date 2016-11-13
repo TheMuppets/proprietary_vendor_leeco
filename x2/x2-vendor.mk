@@ -48,7 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/leeco/x2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/leeco/x2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/hw/fingerprint.msm8996.so:system/vendor/lib64/hw/fingerprint.msm8996.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/hw/fingerprint.qcom.so:system/vendor/lib64/hw/fingerprint.qcom.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libqfp-service.so:system/vendor/lib64/libqfp-service.so \
     vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so \
     vendor/leeco/x2/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
@@ -340,9 +340,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/leeco/x2/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/leeco/x2/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/leeco/x2/proprietary/etc/wifi/bdwlan30_1.bin:system/etc/wifi/bdwlan30_1.bin \
-    vendor/leeco/x2/proprietary/etc/wifi/bdwlan30_2.bin:system/etc/wifi/bdwlan30_2.bin \
-    vendor/leeco/x2/proprietary/etc/wifi/bdwlan30_3.bin:system/etc/wifi/bdwlan30_3.bin \
     vendor/leeco/x2/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/leeco/x2/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/leeco/x2/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -593,7 +590,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libsdm-disp-apis \
     libthermalclient \
     libtime_genoff \
     datastatusnotification \
