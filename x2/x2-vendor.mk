@@ -777,6 +777,7 @@ PRODUCT_COPY_FILES +=  \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_s5k3m2xx_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_video_4k.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/leeco/x2/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/leeco/x2/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/leeco/x2/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
@@ -916,6 +917,7 @@ PRODUCT_COPY_FILES +=  \
     vendor/leeco/x2/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/leeco/x2/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/leeco/x2/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/leeco/x2/proprietary/vendor/lib/libois_bu24218.so:system/vendor/lib/libois_bu24218.so \
     vendor/leeco/x2/proprietary/vendor/lib/libois_bu63165.so:system/vendor/lib/libois_bu63165.so \
     vendor/leeco/x2/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
