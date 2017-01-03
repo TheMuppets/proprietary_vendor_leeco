@@ -26,12 +26,13 @@ PRODUCT_PACKAGES += \
     TimeService \
     CNEService \
     com.qualcomm.location \
-    dpmserviceapp \
     qcrilmsgtunnel \
     ims \
     imssettings \
     qcnvitems \
     qcrilhook \
-    imscmlibrary
+    imscmlibrary \
+    com.quicinc.cne \
+    cneapiclient
 
 $(call inherit-product, vendor/leeco/s2/s2-vendor-blobs.mk)
