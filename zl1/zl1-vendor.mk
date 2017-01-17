@@ -477,7 +477,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libualutil.so:system/vendor/lib/libualutil.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libusndroute.so:system/vendor/lib/libusndroute.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so
+    vendor/leeco/zl1/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/leeco/zl1/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/leeco/zl1/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so
 
 PRODUCT_PACKAGES += \
     qdcm_calib_data_mdss_dsi_ft8716_1080p_video \
