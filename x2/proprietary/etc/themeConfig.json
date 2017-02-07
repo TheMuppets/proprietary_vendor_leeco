@@ -1,0 +1,18 @@
+{
+"themelist": [
+{
+"name": "letvTheme_soft_luxury_common.zip",
+"path": "/system/etc/letvTheme_soft_luxury_common.zip"
+},
+{
+"name":"letvTheme_black_common.zip",
+"path":"/system/etc/letvTheme_black_common.zip"
+},
+{"name":"letvTheme_Elegant_Lady.zip",
+"path":"/system/etc/letvTheme_Elegant_Lady.zip"
+}
+],
+"defaultTheme": "letvTheme_black_common.zip",
+"defaultThemeId":"1000",
+"count": 3
+}
