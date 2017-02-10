@@ -406,6 +406,86 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:system/vendor/lib/libSonyIMX298PdafLibrary.so
 
+PRODUCT_COPY_FILES += \
+    vendor/leeco/zl1/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    vendor/leeco/zl1/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
+    vendor/leeco/zl1/proprietary/bin/ifaa_daemon:system/bin/ifaa_daemon \
+    vendor/leeco/zl1/proprietary/bin/ks:system/bin/ks \
+    vendor/leeco/zl1/proprietary/bin/mbn_daemon:system/bin/mbn_daemon \
+    vendor/leeco/zl1/proprietary/bin/mbn_daemon_test:system/bin/mbn_daemon_test \
+    vendor/leeco/zl1/proprietary/bin/ppd:system/bin/ppd \
+    vendor/leeco/zl1/proprietary/bin/ssr_diag:system/bin/ssr_diag \
+    vendor/leeco/zl1/proprietary/bin/ssr_setup:system/bin/ssr_setup \
+    vendor/leeco/zl1/proprietary/bin/tbaseLoader:system/bin/tbaseLoader \
+    vendor/leeco/zl1/proprietary/bin/tloc_daemon:system/bin/tloc_daemon \
+    vendor/leeco/zl1/proprietary/bin/usf_proximity:system/bin/usf_proximity \
+    vendor/leeco/zl1/proprietary/bin/usf_tester:system/bin/usf_tester \
+    vendor/leeco/zl1/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
+    vendor/leeco/zl1/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.b00:system/etc/firmware/cppf.b00 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.b01:system/etc/firmware/cppf.b01 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.b02:system/etc/firmware/cppf.b02 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.b03:system/etc/firmware/cppf.b03 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.b04:system/etc/firmware/cppf.b04 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.b05:system/etc/firmware/cppf.b05 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.b06:system/etc/firmware/cppf.b06 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.mbn:system/etc/firmware/cppf.mbn \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.mdt:system/etc/firmware/cppf.mdt \
+    vendor/leeco/zl1/proprietary/etc/firmware/cyccg.cybin:system/etc/firmware/cyccg.cybin \
+    vendor/leeco/zl1/proprietary/etc/firmware/cyccg_table.cybin:system/etc/firmware/cyccg_table.cybin \
+    vendor/leeco/zl1/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/sii6400_wihd_mhl.fw:system/etc/firmware/sii6400_wihd_mhl.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b04:system/etc/firmware/widevine.b04 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.mbn:system/etc/firmware/widevine.mbn \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
+    vendor/leeco/zl1/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
+    vendor/leeco/zl1/proprietary/etc/usf/mixer/mixer_paths_mtp.xml:system/etc/usf/mixer/mixer_paths_mtp.xml \
+    vendor/leeco/zl1/proprietary/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg \
+    vendor/leeco/zl1/proprietary/etc/usf/proximity/cfg_mtp/usf_pocket_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_pocket_mtp.cfg \
+    vendor/leeco/zl1/proprietary/etc/usf/proximity/cfg_mtp/usf_pocket_mtp_algo_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_pocket_mtp_algo_transparent_data.bin \
+    vendor/leeco/zl1/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg \
+    vendor/leeco/zl1/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg \
+    vendor/leeco/zl1/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin \
+    vendor/leeco/zl1/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg \
+    vendor/leeco/zl1/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin \
+    vendor/leeco/zl1/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin \
+    vendor/leeco/zl1/proprietary/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg \
+    vendor/leeco/zl1/proprietary/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin \
+    vendor/leeco/zl1/proprietary/etc/usf/readme.txt:system/etc/usf/readme.txt \
+    vendor/leeco/zl1/proprietary/etc/usf/version.txt:system/etc/usf/version.txt \
+    vendor/leeco/zl1/proprietary/vendor/bin/fidoca:system/vendor/bin/fidoca \
+    vendor/leeco/zl1/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
+    vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
+    vendor/leeco/zl1/proprietary/vendor/lib/libqcproximity.so:system/vendor/lib/libqcproximity.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libual.so:system/vendor/lib/libual.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libualutil.so:system/vendor/lib/libualutil.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libusndroute.so:system/vendor/lib/libusndroute.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libqcproximity.so:system/vendor/lib64/libqcproximity.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libual.so:system/vendor/lib64/libual.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmdtp.so:system/vendor/lib64/libmdtp.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmdtp_crypto.so:system/vendor/lib64/libmdtp_crypto.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmdtp.so:system/vendor/lib/libmdtp.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmdtp_crypto.so:system/vendor/lib/libmdtp_crypto.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
+    vendor/leeco/zl1/proprietary/etc/qxdm/1.cfg:system/vendor/leeco/zl1/proprietary/etc/qxdm/1.cfg \
+    vendor/leeco/zl1/proprietary/etc/qxdm/gps_log.cfg:system/vendor/leeco/zl1/proprietary/etc/qxdm/gps_log.cfg \
+    vendor/leeco/zl1/proprietary/etc/ad_calib.cfg:system/vendor/leeco/zl1/proprietary/etc/ad_calib.cfg \
+    vendor/leeco/zl1/proprietary/etc/ad_calib_le_zl1.cfg:system/vendor/leeco/zl1/proprietary/etc/ad_calib_le_zl1.cfg
+
 PRODUCT_PACKAGES += \
     qdcm_calib_data_mdss_dsi_ft8716_1080p_video \
     qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video \
