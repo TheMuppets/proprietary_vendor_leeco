@@ -472,10 +472,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libmdtp_crypto.so:system/vendor/lib/libmdtp_crypto.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
-    vendor/leeco/zl1/proprietary/etc/qxdm/1.cfg:system/vendor/leeco/zl1/proprietary/etc/qxdm/1.cfg \
-    vendor/leeco/zl1/proprietary/etc/qxdm/gps_log.cfg:system/vendor/leeco/zl1/proprietary/etc/qxdm/gps_log.cfg \
-    vendor/leeco/zl1/proprietary/etc/ad_calib.cfg:system/vendor/leeco/zl1/proprietary/etc/ad_calib.cfg \
-    vendor/leeco/zl1/proprietary/etc/ad_calib_le_zl1.cfg:system/vendor/leeco/zl1/proprietary/etc/ad_calib_le_zl1.cfg
+    vendor/leeco/zl1/proprietary/etc/qxdm/1.cfg:system/etc/qxdm/1.cfg \
+    vendor/leeco/zl1/proprietary/etc/qxdm/gps_log.cfg:system/etc/qxdm/gps_log.cfg \
+    vendor/leeco/zl1/proprietary/etc/ad_calib.cfg:system/etc/ad_calib.cfg \
+    vendor/leeco/zl1/proprietary/etc/ad_calib_le_zl1.cfg:system/etc/ad_calib_le_zl1.cfg
 
 PRODUCT_PACKAGES += \
     qdcm_calib_data_mdss_dsi_ft8716_1080p_video \
