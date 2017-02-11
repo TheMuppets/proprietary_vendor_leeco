@@ -440,15 +440,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/leeco/zl1/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/leeco/zl1/proprietary/etc/firmware/sii6400_wihd_mhl.fw:system/etc/firmware/sii6400_wihd_mhl.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b04:system/etc/firmware/widevine.b04 \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.mbn:system/etc/firmware/widevine.mbn \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/leeco/zl1/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
     vendor/leeco/zl1/proprietary/etc/usf/mixer/mixer_paths_mtp.xml:system/etc/usf/mixer/mixer_paths_mtp.xml \
     vendor/leeco/zl1/proprietary/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg \
