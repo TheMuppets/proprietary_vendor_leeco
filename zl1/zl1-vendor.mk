@@ -74,8 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_sprint.mbn:system/etc/firmware/modem_pr/mcfg_sw_sprint.mbn \
     vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_tmo.mbn:system/etc/firmware/modem_pr/mcfg_sw_tmo.mbn \
     vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_verizon.mbn:system/etc/firmware/modem_pr/mcfg_sw_verizon.mbn \
-    vendor/leeco/zl1/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
-    vendor/leeco/zl1/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/leeco/zl1/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/zl1/proprietary/lib64/hw/gxfingerprint5118m.default.so:system/lib64/hw/gxfingerprint5118m.default.so \
     vendor/leeco/zl1/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
