@@ -477,8 +477,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     qdcm_calib_data_mdss_dsi_ft8716_1080p_video \
-    qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video \
-    dashd
+    qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
