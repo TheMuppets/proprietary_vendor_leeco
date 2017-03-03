@@ -88,12 +88,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
-    vendor/leeco/msm8996-common/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
     vendor/leeco/msm8996-common/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
     vendor/leeco/msm8996-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/leeco/msm8996-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/leeco/msm8996-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
-    vendor/leeco/msm8996-common/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/leeco/msm8996-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
