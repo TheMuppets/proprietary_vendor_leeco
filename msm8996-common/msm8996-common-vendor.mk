@@ -82,13 +82,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/leeco/msm8996-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/leeco/msm8996-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/leeco/msm8996-common/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
-    vendor/leeco/msm8996-common/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
     vendor/leeco/msm8996-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/leeco/msm8996-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/leeco/msm8996-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
