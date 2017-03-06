@@ -413,7 +413,6 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     QtiTetherService \
-    xtra_t_app \
     colorservice \
     imssettings \
     qcnvitems \
