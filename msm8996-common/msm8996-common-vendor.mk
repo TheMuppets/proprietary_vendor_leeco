@@ -417,7 +417,6 @@ PRODUCT_PACKAGES += \
     imssettings \
     qcnvitems \
     qcrilhook
-
 PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/bin/iop:system/bin/iop \
     vendor/leeco/msm8996-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
