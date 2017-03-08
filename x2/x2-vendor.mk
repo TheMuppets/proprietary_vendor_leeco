@@ -157,8 +157,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/qvop/noisesample.bin:system/etc/qvop/noisesample.bin \
     vendor/leeco/x2/proprietary/etc/qvop/poc_64_hmm.gmm:system/etc/qvop/poc_64_hmm.gmm \
     vendor/leeco/x2/proprietary/etc/qxdm/1.cfg:system/etc/qxdm/1.cfg \
-    vendor/leeco/x2/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
-    vendor/leeco/x2/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/leeco/x2/proprietary/etc/stargate/image_quality/templates/template1.pgm:system/etc/stargate/image_quality/templates/template1.pgm \
     vendor/leeco/x2/proprietary/etc/stargate/qfp_config.txt:system/etc/stargate/qfp_config.txt \
     vendor/leeco/x2/proprietary/etc/stargate/wakeup/templates/template_imaginary.bin:system/etc/stargate/wakeup/templates/template_imaginary.bin \
@@ -455,7 +453,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
     vendor/leeco/x2/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/leeco/x2/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/leeco/x2/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/leeco/x2/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
