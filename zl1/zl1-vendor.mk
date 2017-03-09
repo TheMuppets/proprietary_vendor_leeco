@@ -20,8 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/leeco/zl1/proprietary/bin/ifaa_daemon:system/bin/ifaa_daemon \
     vendor/leeco/zl1/proprietary/bin/ks:system/bin/ks \
-    vendor/leeco/zl1/proprietary/bin/mbn_daemon:system/bin/mbn_daemon \
-    vendor/leeco/zl1/proprietary/bin/mbn_daemon_test:system/bin/mbn_daemon_test \
     vendor/leeco/zl1/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/leeco/zl1/proprietary/bin/ppd:system/bin/ppd \
     vendor/leeco/zl1/proprietary/bin/ssr_diag:system/bin/ssr_diag \
