@@ -31,6 +31,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/leeco/msm8996-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/leeco/msm8996-common/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/leeco/msm8996-common/proprietary/bin/mbn_daemon:system/bin/mbn_daemon \
+    vendor/leeco/msm8996-common/proprietary/bin/mbn_daemon_test:system/bin/mbn_daemon_test \
     vendor/leeco/msm8996-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/leeco/msm8996-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/leeco/msm8996-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
