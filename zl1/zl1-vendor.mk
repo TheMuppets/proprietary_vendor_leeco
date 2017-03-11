@@ -153,7 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/leeco/zl1/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
     vendor/leeco/zl1/proprietary/lib/libcamera_letv_algo.so:system/lib/libcamera_letv_algo.so \
-    vendor/leeco/zl1/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/leeco/zl1/proprietary/lib/libletv_algo_jni.so:system/lib/libletv_algo_jni.so \
     vendor/leeco/zl1/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
     vendor/leeco/zl1/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
