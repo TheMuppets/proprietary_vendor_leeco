@@ -100,6 +100,15 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/leeco/msm8996-common/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
+    vendor/leeco/msm8996-common/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
+    vendor/leeco/msm8996-common/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
+    vendor/leeco/msm8996-common/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
+    vendor/leeco/msm8996-common/proprietary/vendor/firmware/widevine.b04:system/vendor/firmware/widevine.b04 \
+    vendor/leeco/msm8996-common/proprietary/vendor/firmware/widevine.b05:system/vendor/firmware/widevine.b05 \
+    vendor/leeco/msm8996-common/proprietary/vendor/firmware/widevine.b06:system/vendor/firmware/widevine.b06 \
+    vendor/leeco/msm8996-common/proprietary/vendor/firmware/widevine.mbn:system/vendor/firmware/widevine.mbn \
+    vendor/leeco/msm8996-common/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
