@@ -20,8 +20,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/bin/nvm_service:system/bin/nvm_service \
     vendor/leeco/x2/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
     vendor/leeco/x2/proprietary/bin/set_wifi_mac:system/bin/set_wifi_mac \
-    vendor/leeco/x2/proprietary/bin/yepdiag:system/bin/yepdiag \
     vendor/leeco/x2/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
+    vendor/leeco/x2/proprietary/bin/yepdiag:system/bin/yepdiag \
     vendor/leeco/x2/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
@@ -36,6 +36,13 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Bluetooth_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_General_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_General_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Global_cal.acdb \
@@ -44,13 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/workspaceFile.qwsp:system/etc/acdbdata/MTP/letv/workspaceFile.qwsp \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
@@ -60,8 +60,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/leeco/x2/proprietary/etc/ad_calib.cfg:system/etc/ad_calib.cfg \
     vendor/leeco/x2/proprietary/etc/ad_calib_x2.cfg:system/etc/ad_calib_x2.cfg \
-    vendor/leeco/x2/proprietary/etc/battd_psy.conf:system/etc/battd_psy.conf \
     vendor/leeco/x2/proprietary/etc/batt_info_show_conf.xml:system/etc/batt_info_show_conf.xml \
+    vendor/leeco/x2/proprietary/etc/battd_psy.conf:system/etc/battd_psy.conf \
     vendor/leeco/x2/proprietary/etc/camera/imx230_chromatix.xml:system/etc/camera/imx230_chromatix.xml \
     vendor/leeco/x2/proprietary/etc/camera/imx230_lg_chromatix.xml:system/etc/camera/imx230_lg_chromatix.xml \
     vendor/leeco/x2/proprietary/etc/camera/imx230_sunny_chromatix.xml:system/etc/camera/imx230_sunny_chromatix.xml \
@@ -71,9 +71,13 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/leeco/x2/proprietary/etc/cdma_call_conf.xml:system/etc/cdma_call_conf.xml \
     vendor/leeco/x2/proprietary/etc/ecc_conf.xml:system/etc/ecc_conf.xml \
-    vendor/leeco/x2/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/leeco/x2/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
+    vendor/leeco/x2/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
+    vendor/leeco/x2/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
+    vendor/leeco/x2/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
     vendor/leeco/x2/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/leeco/x2/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/leeco/x2/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/leeco/x2/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/leeco/x2/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/leeco/x2/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
@@ -83,23 +87,16 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
     vendor/leeco/x2/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/leeco/x2/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
-    vendor/leeco/x2/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/leeco/x2/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
     vendor/leeco/x2/proprietary/etc/firmware/a530_zap.b00:system/etc/firmware/a530_zap.b00 \
     vendor/leeco/x2/proprietary/etc/firmware/a530_zap.b01:system/etc/firmware/a530_zap.b01 \
     vendor/leeco/x2/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
     vendor/leeco/x2/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
     vendor/leeco/x2/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b00:system/etc/firmware/cppf.b00 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b01:system/etc/firmware/cppf.b01 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b02:system/etc/firmware/cppf.b02 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b03:system/etc/firmware/cppf.b03 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b04:system/etc/firmware/cppf.b04 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b05:system/etc/firmware/cppf.b05 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b06:system/etc/firmware/cppf.b06 \
+    vendor/leeco/x2/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
+    vendor/leeco/x2/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
+    vendor/leeco/x2/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
+    vendor/leeco/x2/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
+    vendor/leeco/x2/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
     vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -109,6 +106,13 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b00:system/etc/firmware/cppf.b00 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b01:system/etc/firmware/cppf.b01 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b02:system/etc/firmware/cppf.b02 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b03:system/etc/firmware/cppf.b03 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b04:system/etc/firmware/cppf.b04 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b05:system/etc/firmware/cppf.b05 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b06:system/etc/firmware/cppf.b06 \
     vendor/leeco/x2/proprietary/etc/firmware/cppf.mbn:system/etc/firmware/cppf.mbn \
     vendor/leeco/x2/proprietary/etc/firmware/cppf.mdt:system/etc/firmware/cppf.mdt \
     vendor/leeco/x2/proprietary/etc/firmware/cyccg.cybin:system/etc/firmware/cyccg.cybin \
@@ -126,20 +130,16 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/firmware/modem_pr/mcfg_sw_tmo.mbn:system/etc/firmware/modem_pr/mcfg_sw_tmo.mbn \
     vendor/leeco/x2/proprietary/etc/firmware/modem_pr/mcfg_sw_verizon.mbn:system/etc/firmware/modem_pr/mcfg_sw_verizon.mbn \
     vendor/leeco/x2/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
+    vendor/leeco/x2/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
     vendor/leeco/x2/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
     vendor/leeco/x2/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
     vendor/leeco/x2/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
     vendor/leeco/x2/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/leeco/x2/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
+    vendor/leeco/x2/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
     vendor/leeco/x2/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
     vendor/leeco/x2/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/leeco/x2/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/leeco/x2/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/leeco/x2/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/leeco/x2/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
-    vendor/leeco/x2/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
-    vendor/leeco/x2/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
-    vendor/leeco/x2/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
     vendor/leeco/x2/proprietary/etc/firmware/sii6400_wihd_mhl.fw:system/etc/firmware/sii6400_wihd_mhl.fw \
     vendor/leeco/x2/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
     vendor/leeco/x2/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
@@ -163,12 +163,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/stargate/wakeup/templates/template_real.bin:system/etc/stargate/wakeup/templates/template_real.bin \
     vendor/leeco/x2/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/leeco/x2/proprietary/etc/wifi/fstman.ini:system/etc/wifi/fstman.ini \
-    vendor/leeco/x2/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
-    vendor/leeco/x2/proprietary/lib64/libminui.so:system/lib64/libminui.so \
     vendor/leeco/x2/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
+    vendor/leeco/x2/proprietary/lib/libBD_asr_model_cmn-Hans-CN_v1_camera.so:system/lib/libBD_asr_model_cmn-Hans-CN_v1_camera.so \
+    vendor/leeco/x2/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
     vendor/leeco/x2/proprietary/lib/libamipengine.so:system/lib/libamipengine.so \
-    vendor/leeco/x2/proprietary/lib/libarcimgutilsbase.so:system/lib/libarcimgutilsbase.so \
     vendor/leeco/x2/proprietary/lib/libarcimgutils.so:system/lib/libarcimgutils.so \
+    vendor/leeco/x2/proprietary/lib/libarcimgutilsbase.so:system/lib/libarcimgutilsbase.so \
     vendor/leeco/x2/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/leeco/x2/proprietary/lib/libarcsoft_face_detection.so:system/lib/libarcsoft_face_detection.so \
     vendor/leeco/x2/proprietary/lib/libarcsoft_face_tracking.so:system/lib/libarcsoft_face_tracking.so \
@@ -176,88 +176,59 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
     vendor/leeco/x2/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/leeco/x2/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
-    vendor/leeco/x2/proprietary/lib/libBD_asr_model_cmn-Hans-CN_v1_camera.so:system/lib/libBD_asr_model_cmn-Hans-CN_v1_camera.so \
     vendor/leeco/x2/proprietary/lib/libcamera_letv_algo.so:system/lib/libcamera_letv_algo.so \
     vendor/leeco/x2/proprietary/lib/libentryexstd.so:system/lib/libentryexstd.so \
     vendor/leeco/x2/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
     vendor/leeco/x2/proprietary/lib/libjpush219.so:system/lib/libjpush219.so \
-    vendor/leeco/x2/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
     vendor/leeco/x2/proprietary/lib/liblog.so:system/lib/liblog.so \
     vendor/leeco/x2/proprietary/lib/libminui.so:system/lib/libminui.so \
     vendor/leeco/x2/proprietary/lib/libmksdk_platform_jni.so:system/lib/libmksdk_platform_jni.so \
+    vendor/leeco/x2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/leeco/x2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/leeco/x2/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/leeco/x2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/leeco/x2/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/leeco/x2/proprietary/lib/libmpkernel.so:system/lib/libmpkernel.so \
     vendor/leeco/x2/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
     vendor/leeco/x2/proprietary/lib/libmputility.so:system/lib/libmputility.so \
     vendor/leeco/x2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/leeco/x2/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
+    vendor/leeco/x2/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
+    vendor/leeco/x2/proprietary/lib64/libminui.so:system/lib64/libminui.so \
     vendor/leeco/x2/proprietary/vendor/etc/audio_output_policy_letv.conf:system/vendor/etc/audio_output_policy_letv.conf \
-    vendor/leeco/x2/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libChamomilePA.so:system/vendor/lib64/libChamomilePA.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libCommandSvc.so:system/vendor/lib64/libCommandSvc.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libhdcp1prov.so:system/vendor/lib64/libhdcp1prov.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmdmimgload.so:system/vendor/lib64/libmdmimgload.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmdtp_crypto.so:system/vendor/lib64/libmdtp_crypto.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmdtpdemojni.so:system/vendor/lib64/libmdtpdemojni.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmdtp.so:system/vendor/lib64/libmdtp.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmhttpstack.so:system/vendor/lib64/libmmhttpstack.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmiipstreammmihttp.so:system/vendor/lib64/libmmiipstreammmihttp.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmipstreamaal.so:system/vendor/lib64/libmmipstreamaal.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmipstreamnetwork.so:system/vendor/lib64/libmmipstreamnetwork.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmipstreamsourcehttp.so:system/vendor/lib64/libmmipstreamsourcehttp.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmipstreamutils.so:system/vendor/lib64/libmmipstreamutils.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmi.so:system/vendor/lib64/libmmi.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmrtpdecoder.so:system/vendor/lib64/libmmrtpdecoder.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmrtpencoder.so:system/vendor/lib64/libmmrtpencoder.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmwfdinterface.so:system/vendor/lib64/libmmwfdinterface.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmwfdsinkinterface.so:system/vendor/lib64/libmmwfdsinkinterface.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmmwfdsrcinterface.so:system/vendor/lib64/libmmwfdsrcinterface.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libproxadapter.so:system/vendor/lib64/libproxadapter.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libproxsockadapter.so:system/vendor/lib64/libproxsockadapter.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libQBLAS-0.13.0.so:system/vendor/lib64/libQBLAS-0.13.0.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libqfp-service.so:system/vendor/lib64/libqfp-service.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libqmi_dms_client.so:system/vendor/lib64/libqmi_dms_client.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libqvop-service.so:system/vendor/lib64/libqvop-service.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/librmp.so:system/vendor/lib64/librmp.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libual.so:system/vendor/lib64/libual.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libusutils.so:system/vendor/lib64/libusutils.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libyep_qmi_client.so:system/vendor/lib64/libyep_qmi_client.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libyep_qmi_server.so:system/vendor/lib64/libyep_qmi_server.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/mmi_flashlight.so:system/vendor/lib64/mmi_flashlight.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
+    vendor/leeco/x2/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libQBLAS-0.13.0.so:system/vendor/lib/libQBLAS-0.13.0.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libSecureExtAuthJNI.so:system/vendor/lib/libSecureExtAuthJNI.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libSecureSampleAuthJNI.so:system/vendor/lib/libSecureSampleAuthJNI.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:system/vendor/lib/libSonyIMX230PdafLibrary.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230_lg_PdafLibrary.so:system/vendor/lib/libSonyIMX230_lg_PdafLibrary.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so:system/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/leeco/x2/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
     vendor/leeco/x2/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
     vendor/leeco/x2/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
@@ -273,7 +244,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
     vendor/leeco/x2/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
     vendor/leeco/x2/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:system/vendor/lib/libchromatix_csidtg_postproc.so \
@@ -290,24 +260,24 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_90.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_cpp_liveshot.so:system/vendor/lib/libchromatix_imx230_cpp_liveshot.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_cpp_preview.so:system/vendor/lib/libchromatix_imx230_cpp_preview.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_cpp_video.so:system/vendor/lib/libchromatix_imx230_cpp_video.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_cpp_video_4k.so:system/vendor/lib/libchromatix_imx230_cpp_video_4k.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_video_hdr.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_cpp_video.so:system/vendor/lib/libchromatix_imx230_cpp_video.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_default_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_default_preview_lc898212xd.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_default_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_default_video_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_default_video.so:system/vendor/lib/libchromatix_imx230_default_video.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_default_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_default_video_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hdr_snapshot_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hdr_snapshot_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hdr_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hdr_video_lc898212xd.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_120_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_120_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_120.so:system/vendor/lib/libchromatix_imx230_hfr_120.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_240_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_240_lc898212xd.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_120_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_120_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_240.so:system/vendor/lib/libchromatix_imx230_hfr_240.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_60_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_60_lc898212xd.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_240_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_240_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_60.so:system/vendor/lib/libchromatix_imx230_hfr_60.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_90_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_90_lc898212xd.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_60_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_60_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_90.so:system/vendor/lib/libchromatix_imx230_hfr_90.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_90_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_90_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_1080p_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_1080p_preview_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_1080p_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_1080p_video_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_4k_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_4k_preview_lc898212xd.so \
@@ -319,29 +289,29 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx230_lg_cpp_hfr_90.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_liveshot.so:system/vendor/lib/libchromatix_imx230_lg_cpp_liveshot.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_preview.so:system/vendor/lib/libchromatix_imx230_lg_cpp_preview.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_lg_cpp_snapshot_hdr.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_snapshot.so:system/vendor/lib/libchromatix_imx230_lg_cpp_snapshot.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_lg_cpp_snapshot_hdr.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_video.so:system/vendor/lib/libchromatix_imx230_lg_cpp_video.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_video_4k.so:system/vendor/lib/libchromatix_imx230_lg_cpp_video_4k.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx230_lg_cpp_video_hdr.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_video.so:system/vendor/lib/libchromatix_imx230_lg_cpp_video.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_default_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_default_preview_lc898212xd.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_default_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_default_video_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_default_video.so:system/vendor/lib/libchromatix_imx230_lg_default_video.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_default_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_default_video_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hdr_snapshot_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_hdr_snapshot_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hdr_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_hdr_video_lc898212xd.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_120_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_hfr_120_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_120.so:system/vendor/lib/libchromatix_imx230_lg_hfr_120.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_240_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_hfr_240_lc898212xd.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_120_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_hfr_120_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_240.so:system/vendor/lib/libchromatix_imx230_lg_hfr_240.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_60_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_hfr_60_lc898212xd.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_240_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_hfr_240_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_60.so:system/vendor/lib/libchromatix_imx230_lg_hfr_60.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_90_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_hfr_90_lc898212xd.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_60_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_hfr_60_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_90.so:system/vendor/lib/libchromatix_imx230_lg_hfr_90.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_90_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_hfr_90_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_liveshot.so:system/vendor/lib/libchromatix_imx230_lg_liveshot.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_postproc.so:system/vendor/lib/libchromatix_imx230_lg_postproc.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_preview.so:system/vendor/lib/libchromatix_imx230_lg_preview.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_lg_snapshot_hdr.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_snapshot.so:system/vendor/lib/libchromatix_imx230_lg_snapshot.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_lg_snapshot_hdr.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_video_16M_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_video_16M_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_video_4k.so:system/vendor/lib/libchromatix_imx230_lg_video_4k.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_video_hdr.so:system/vendor/lib/libchromatix_imx230_lg_video_hdr.so \
@@ -350,8 +320,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_liveshot.so:system/vendor/lib/libchromatix_imx230_liveshot.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_postproc.so:system/vendor/lib/libchromatix_imx230_postproc.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_preview.so:system/vendor/lib/libchromatix_imx230_preview.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_snapshot_hdr.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_snapshot.so:system/vendor/lib/libchromatix_imx230_snapshot.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_snapshot_hdr.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_1080p_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_1080p_preview_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_1080p_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_1080p_video_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_4k_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_4k_preview_lc898212xd.so \
@@ -363,29 +333,29 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx230_sunny_cpp_hfr_90.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_cpp_liveshot.so:system/vendor/lib/libchromatix_imx230_sunny_cpp_liveshot.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_cpp_preview.so:system/vendor/lib/libchromatix_imx230_sunny_cpp_preview.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_sunny_cpp_snapshot_hdr.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_cpp_snapshot.so:system/vendor/lib/libchromatix_imx230_sunny_cpp_snapshot.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_sunny_cpp_snapshot_hdr.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_cpp_video.so:system/vendor/lib/libchromatix_imx230_sunny_cpp_video.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_cpp_video_4k.so:system/vendor/lib/libchromatix_imx230_sunny_cpp_video_4k.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx230_sunny_cpp_video_hdr.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_cpp_video.so:system/vendor/lib/libchromatix_imx230_sunny_cpp_video.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_default_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_default_preview_lc898212xd.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_default_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_default_video_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_default_video.so:system/vendor/lib/libchromatix_imx230_sunny_default_video.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_default_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_default_video_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_hdr_snapshot_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_hdr_snapshot_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_hdr_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_hdr_video_lc898212xd.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_hfr_120_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_hfr_120_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_hfr_120.so:system/vendor/lib/libchromatix_imx230_sunny_hfr_120.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_hfr_240_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_hfr_240_lc898212xd.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_hfr_120_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_hfr_120_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_hfr_240.so:system/vendor/lib/libchromatix_imx230_sunny_hfr_240.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_hfr_60_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_hfr_60_lc898212xd.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_hfr_240_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_hfr_240_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_hfr_60.so:system/vendor/lib/libchromatix_imx230_sunny_hfr_60.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_hfr_90_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_hfr_90_lc898212xd.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_hfr_60_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_hfr_60_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_hfr_90.so:system/vendor/lib/libchromatix_imx230_sunny_hfr_90.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_hfr_90_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_hfr_90_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_liveshot.so:system/vendor/lib/libchromatix_imx230_sunny_liveshot.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_postproc.so:system/vendor/lib/libchromatix_imx230_sunny_postproc.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_preview.so:system/vendor/lib/libchromatix_imx230_sunny_preview.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_sunny_snapshot_hdr.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_snapshot.so:system/vendor/lib/libchromatix_imx230_sunny_snapshot.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_sunny_snapshot_hdr.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_video_16M_lc898212xd.so:system/vendor/lib/libchromatix_imx230_sunny_video_16M_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_video_4k.so:system/vendor/lib/libchromatix_imx230_sunny_video_4k.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_sunny_video_hdr.so:system/vendor/lib/libchromatix_imx230_sunny_video_hdr.so \
@@ -405,17 +375,17 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_cpp_preview.so:system/vendor/lib/libchromatix_ov8865_cpp_preview.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8865_cpp_snapshot.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_cpp_video_full.so:system/vendor/lib/libchromatix_ov8865_cpp_video_full.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_cpp_video.so:system/vendor/lib/libchromatix_ov8865_cpp_video.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_cpp_video_full.so:system/vendor/lib/libchromatix_ov8865_cpp_video_full.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_default_preview_dw9714.so:system/vendor/lib/libchromatix_ov8865_default_preview_dw9714.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_default_video_dw9714.so:system/vendor/lib/libchromatix_ov8865_default_video_dw9714.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_default_video.so:system/vendor/lib/libchromatix_ov8865_default_video.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_hfr_120_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_120_dw9714.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_default_video_dw9714.so:system/vendor/lib/libchromatix_ov8865_default_video_dw9714.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_hfr_120.so:system/vendor/lib/libchromatix_ov8865_hfr_120.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_hfr_60_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_60_dw9714.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_hfr_120_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_120_dw9714.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_hfr_60.so:system/vendor/lib/libchromatix_ov8865_hfr_60.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_hfr_90_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_90_dw9714.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_hfr_60_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_60_dw9714.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_hfr_90.so:system/vendor/lib/libchromatix_ov8865_hfr_90.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_hfr_90_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_90_dw9714.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_liveshot.so:system/vendor/lib/libchromatix_ov8865_liveshot.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_common.so:system/vendor/lib/libchromatix_ov8865_ofilm_common.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov8865_ofilm_cpp_ds_chromatix.so \
@@ -426,17 +396,17 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_cpp_preview.so:system/vendor/lib/libchromatix_ov8865_ofilm_cpp_preview.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8865_ofilm_cpp_snapshot.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8865_ofilm_cpp_us_chromatix.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_cpp_video_full.so:system/vendor/lib/libchromatix_ov8865_ofilm_cpp_video_full.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_cpp_video.so:system/vendor/lib/libchromatix_ov8865_ofilm_cpp_video.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_cpp_video_full.so:system/vendor/lib/libchromatix_ov8865_ofilm_cpp_video_full.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_default_preview_dw9714.so:system/vendor/lib/libchromatix_ov8865_ofilm_default_preview_dw9714.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_default_video_dw9714.so:system/vendor/lib/libchromatix_ov8865_ofilm_default_video_dw9714.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_default_video.so:system/vendor/lib/libchromatix_ov8865_ofilm_default_video.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_hfr_120_dw9714.so:system/vendor/lib/libchromatix_ov8865_ofilm_hfr_120_dw9714.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_default_video_dw9714.so:system/vendor/lib/libchromatix_ov8865_ofilm_default_video_dw9714.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_hfr_120.so:system/vendor/lib/libchromatix_ov8865_ofilm_hfr_120.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_hfr_60_dw9714.so:system/vendor/lib/libchromatix_ov8865_ofilm_hfr_60_dw9714.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_hfr_120_dw9714.so:system/vendor/lib/libchromatix_ov8865_ofilm_hfr_120_dw9714.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_hfr_60.so:system/vendor/lib/libchromatix_ov8865_ofilm_hfr_60.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_hfr_90_dw9714.so:system/vendor/lib/libchromatix_ov8865_ofilm_hfr_90_dw9714.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_hfr_60_dw9714.so:system/vendor/lib/libchromatix_ov8865_ofilm_hfr_60_dw9714.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_hfr_90.so:system/vendor/lib/libchromatix_ov8865_ofilm_hfr_90.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_hfr_90_dw9714.so:system/vendor/lib/libchromatix_ov8865_ofilm_hfr_90_dw9714.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_liveshot.so:system/vendor/lib/libchromatix_ov8865_ofilm_liveshot.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_postproc.so:system/vendor/lib/libchromatix_ov8865_ofilm_postproc.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_preview.so:system/vendor/lib/libchromatix_ov8865_ofilm_preview.so \
@@ -452,32 +422,14 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
     vendor/leeco/x2/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/leeco/x2/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/leeco/x2/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
     vendor/leeco/x2/proprietary/vendor/lib/libextendedremotedisplay.so:system/vendor/lib/libextendedremotedisplay.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/leeco/x2/proprietary/vendor/lib/libflash_i2c.so:system/vendor/lib/libflash_i2c.so \
     vendor/leeco/x2/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/leeco/x2/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so \
     vendor/leeco/x2/proprietary/vendor/lib/libhdcp1prov.so:system/vendor/lib/libhdcp1prov.so \
     vendor/leeco/x2/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/leeco/x2/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
     vendor/leeco/x2/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/leeco/x2/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/leeco/x2/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -488,17 +440,20 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libmare-cpu-1.1.so:system/vendor/lib/libmare-cpu-1.1.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmdtp.so:system/vendor/lib/libmdtp.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmdtp_crypto.so:system/vendor/lib/libmdtp_crypto.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmdtpdemojni.so:system/vendor/lib/libmdtpdemojni.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmdtp.so:system/vendor/lib/libmdtp.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
@@ -520,10 +475,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_hvx_add_constant.so:system/vendor/lib/libmmcamera_hvx_add_constant.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_hvx_grid_sum.so:system/vendor/lib/libmmcamera_hvx_grid_sum.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_hvx_zzHDR.so:system/vendor/lib/libmmcamera_hvx_zzHDR.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_imx230_lg.so:system/vendor/lib/libmmcamera_imx230_lg.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_imx230.so:system/vendor/lib/libmmcamera_imx230.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_imx230_lg.so:system/vendor/lib/libmmcamera_imx230_lg.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_imx230_sunny.so:system/vendor/lib/libmmcamera_imx230_sunny.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_isp_abf47.so:system/vendor/lib/libmmcamera_isp_abf47.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:system/vendor/lib/libmmcamera_isp_aec_bg_stats47.so \
@@ -569,35 +524,32 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_le2464c_master_eeprom.so:system/vendor/lib/libmmcamera_le2464c_master_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov8865_eeprom.so:system/vendor/lib/libmmcamera_ov8865_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov8865_ofilm.so:system/vendor/lib/libmmcamera_ov8865_ofilm.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sony_imx230_eeprom.so:system/vendor/lib/libmmcamera_sony_imx230_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sony_imx230_plus_eeprom.so:system/vendor/lib/libmmcamera_sony_imx230_plus_eeprom.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:system/vendor/lib/libmmcamera_sunny_8865_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:system/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
@@ -612,46 +564,31 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libproxadapter.so:system/vendor/lib/libproxadapter.so \
     vendor/leeco/x2/proprietary/vendor/lib/libproxsockadapter.so:system/vendor/lib/libproxsockadapter.so \
     vendor/leeco/x2/proprietary/vendor/lib/libpvr.so:system/vendor/lib/libpvr.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libQBLAS-0.13.0.so:system/vendor/lib/libQBLAS-0.13.0.so \
     vendor/leeco/x2/proprietary/vendor/lib/libqcproximity.so:system/vendor/lib/libqcproximity.so \
     vendor/leeco/x2/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/leeco/x2/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/leeco/x2/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
     vendor/leeco/x2/proprietary/vendor/lib/libqti-gt.so:system/vendor/lib/libqti-gt.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/leeco/x2/proprietary/vendor/lib/libqvop-service.so:system/vendor/lib/libqvop-service.so \
     vendor/leeco/x2/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
     vendor/leeco/x2/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/leeco/x2/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/leeco/x2/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/leeco/x2/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
     vendor/leeco/x2/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/leeco/x2/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libscve_mv.so:system/vendor/lib/libscve_mv.so \
     vendor/leeco/x2/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/leeco/x2/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
-    vendor/leeco/x2/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libSecureExtAuthJNI.so:system/vendor/lib/libSecureExtAuthJNI.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libSecureSampleAuthJNI.so:system/vendor/lib/libSecureSampleAuthJNI.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libscve_mv.so:system/vendor/lib/libscve_mv.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/leeco/x2/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/leeco/x2/proprietary/vendor/lib/libsi.so:system/vendor/lib/libsi.so \
     vendor/leeco/x2/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230_lg_PdafLibrary.so:system/vendor/lib/libSonyIMX230_lg_PdafLibrary.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:system/vendor/lib/libSonyIMX230PdafLibrary.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so:system/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so \
     vendor/leeco/x2/proprietary/vendor/lib/libsregex.so:system/vendor/lib/libsregex.so \
     vendor/leeco/x2/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so \
     vendor/leeco/x2/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:system/vendor/lib/libstagefright_soft_ddpdec.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/leeco/x2/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
     vendor/leeco/x2/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/leeco/x2/proprietary/vendor/lib/libtar.so:system/vendor/lib/libtar.so \
@@ -660,4 +597,67 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libusndroute.so:system/vendor/lib/libusndroute.so \
     vendor/leeco/x2/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/leeco/x2/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
-    vendor/leeco/x2/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so
+    vendor/leeco/x2/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libChamomilePA.so:system/vendor/lib64/libChamomilePA.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libCommandSvc.so:system/vendor/lib64/libCommandSvc.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libQBLAS-0.13.0.so:system/vendor/lib64/libQBLAS-0.13.0.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libhdcp1prov.so:system/vendor/lib64/libhdcp1prov.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmdmimgload.so:system/vendor/lib64/libmdmimgload.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmdtp.so:system/vendor/lib64/libmdtp.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmdtp_crypto.so:system/vendor/lib64/libmdtp_crypto.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmdtpdemojni.so:system/vendor/lib64/libmdtpdemojni.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmhttpstack.so:system/vendor/lib64/libmmhttpstack.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmi.so:system/vendor/lib64/libmmi.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmiipstreammmihttp.so:system/vendor/lib64/libmmiipstreammmihttp.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmipstreamaal.so:system/vendor/lib64/libmmipstreamaal.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmipstreamnetwork.so:system/vendor/lib64/libmmipstreamnetwork.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmipstreamsourcehttp.so:system/vendor/lib64/libmmipstreamsourcehttp.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmipstreamutils.so:system/vendor/lib64/libmmipstreamutils.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmrtpdecoder.so:system/vendor/lib64/libmmrtpdecoder.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmrtpencoder.so:system/vendor/lib64/libmmrtpencoder.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmwfdinterface.so:system/vendor/lib64/libmmwfdinterface.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmwfdsinkinterface.so:system/vendor/lib64/libmmwfdsinkinterface.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libmmwfdsrcinterface.so:system/vendor/lib64/libmmwfdsrcinterface.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libproxadapter.so:system/vendor/lib64/libproxadapter.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libproxsockadapter.so:system/vendor/lib64/libproxsockadapter.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libqfp-service.so:system/vendor/lib64/libqfp-service.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libqmi_dms_client.so:system/vendor/lib64/libqmi_dms_client.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libqvop-service.so:system/vendor/lib64/libqvop-service.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/librmp.so:system/vendor/lib64/librmp.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libual.so:system/vendor/lib64/libual.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libusutils.so:system/vendor/lib64/libusutils.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libyep_qmi_client.so:system/vendor/lib64/libyep_qmi_client.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libyep_qmi_server.so:system/vendor/lib64/libyep_qmi_server.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/mmi_flashlight.so:system/vendor/lib64/mmi_flashlight.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so
