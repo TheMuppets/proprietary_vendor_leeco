@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/letv/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Hdmi_cal.acdb \
     vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb \
     vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb \
-    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/letv/workspaceFile.qwsp:system/etc/acdbdata/MTP/letv/workspaceFile.qwsp \
     vendor/leeco/zl1/proprietary/etc/ad_calib.cfg:system/etc/ad_calib.cfg \
     vendor/leeco/zl1/proprietary/etc/ad_calib_le_zl1.cfg:system/etc/ad_calib_le_zl1.cfg \
     vendor/leeco/zl1/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
