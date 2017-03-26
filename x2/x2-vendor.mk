@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/leeco/x2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/leeco/x2/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/leeco/x2/proprietary/bin/nvm_service:system/bin/nvm_service \
     vendor/leeco/x2/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
     vendor/leeco/x2/proprietary/bin/set_wifi_mac:system/bin/set_wifi_mac \
@@ -62,12 +63,32 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/ad_calib_x2.cfg:system/etc/ad_calib_x2.cfg \
     vendor/leeco/x2/proprietary/etc/batt_info_show_conf.xml:system/etc/batt_info_show_conf.xml \
     vendor/leeco/x2/proprietary/etc/battd_psy.conf:system/etc/battd_psy.conf \
-    vendor/leeco/x2/proprietary/etc/camera/imx230_chromatix.xml:system/etc/camera/imx230_chromatix.xml \
-    vendor/leeco/x2/proprietary/etc/camera/imx230_lg_chromatix.xml:system/etc/camera/imx230_lg_chromatix.xml \
-    vendor/leeco/x2/proprietary/etc/camera/imx230_sunny_chromatix.xml:system/etc/camera/imx230_sunny_chromatix.xml \
-    vendor/leeco/x2/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
-    vendor/leeco/x2/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
-    vendor/leeco/x2/proprietary/etc/camera/ov8865_ofilm_chromatix.xml:system/etc/camera/ov8865_ofilm_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/Le2Large.png:system/etc/camera/Le2Large.png \
+    vendor/leeco/x2/proprietary/etc/Le2Small.png:system/etc/camera/Le2Small.png \
+    vendor/leeco/x2/proprietary/etc/LeMax2Large.png:system/etc/camera/LeMax2Large.png \
+    vendor/leeco/x2/proprietary/etc/LeMax2Small.png:system/etc/camera/LeMax2Small.png \
+    vendor/leeco/x2/proprietary/etc/LeS3Large.png:system/etc/camera/LeS3Large.png \
+    vendor/leeco/x2/proprietary/etc/LeS3Small.png:system/etc/camera/LeS3Small.png \
+    vendor/leeco/x2/proprietary/etc/imx214_chromatix.xml:system/etc/camera/imx214_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/imx230_chromatix.xml:system/etc/camera/imx230_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/imx230_lg_chromatix.xml:system/etc/camera/imx230_lg_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/imx230_sunny_chromatix.xml:system/etc/camera/imx230_sunny_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/imx318_chromatix.xml:system/etc/camera/imx318_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/msm8952_camera.xml:system/etc/camera/msm8952_camera.xml \
+    vendor/leeco/x2/proprietary/etc/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
+    vendor/leeco/x2/proprietary/etc/ov13850_chromatix.xml:system/etc/camera/ov13850_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/ov13850_q13v06k_chromatix.xml:system/etc/camera/ \
+    vendor/leeco/x2/proprietary/etc/:system/etc/camera/ov13850_q13v06k_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/ov2281_chromatix.xml:system/etc/camera/ov2281_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/ov4688_chromatix.xml:system/etc/camera/ov4688_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/ov5670_chromatix.xml:system/etc/camera/ov5670_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/ov8858_chromatix.xml:system/etc/camera/ov8858_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/ov8865_ofilm_chromatix.xml:system/etc/camera/ov8865_ofilm_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/s5k3m2xm_chromatix.xml:system/etc/camera/s5k3m2xm_chromatix.xml \
+    vendor/leeco/x2/proprietary/etc/s5k3m2xx_chromatix.xml:system/etc/camera/s5k3m2xx_chromatix.xml \
     vendor/leeco/x2/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/leeco/x2/proprietary/etc/cdma_call_conf.xml:system/etc/cdma_call_conf.xml \
     vendor/leeco/x2/proprietary/etc/ecc_conf.xml:system/etc/ecc_conf.xml \
