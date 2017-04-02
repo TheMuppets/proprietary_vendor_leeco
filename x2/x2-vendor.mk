@@ -43,14 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Bluetooth_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_General_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_General_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Global_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Handset_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Hdmi_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb \
-    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/letv/workspaceFile.qwsp:system/etc/acdbdata/MTP/letv/workspaceFile.qwsp \
+    vendor/leeco/x2/proprietary/etc/acdbdata/MTP/workspaceFile.qwsp:system/etc/acdbdata/MTP/workspaceFile.qwsp \
     vendor/leeco/x2/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
     vendor/leeco/x2/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \

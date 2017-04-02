@@ -117,7 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:system/vendor/lib/hw/activity_recognition.msm8996.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
-    vendor/leeco/msm8996-common/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/hw/vulkan.msm8996.so:system/vendor/lib/hw/vulkan.msm8996.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
