@@ -927,10 +927,4 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     imscmlibrary \
     qcnvitems \
-    qcrilhook \
-    qcrypto_module \
-    qcrypto_module \
-    qdrbg_module \
-    qdrbg_module \
-    qfintverify \
-    qfintverify
+    qcrilhook
