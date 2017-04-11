@@ -172,6 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/leeco/s2/proprietary/etc/sensors/sensors_dbg_config.txt:system/etc/sensors/sensors_dbg_config.txt \
     vendor/leeco/s2/proprietary/etc/settings/mono_qcom.cnt:system/etc/settings/mono_qcom.cnt \
+    vendor/leeco/s2/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/leeco/s2/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/leeco/s2/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/leeco/s2/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -920,6 +921,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     fastdormancy \
     ims \
+    imssettings \
     CNEService \
     com.qualcomm.location \
     qcrilmsgtunnel \
