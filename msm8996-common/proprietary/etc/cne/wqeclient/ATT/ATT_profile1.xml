@@ -147,7 +147,7 @@
 					<!-- Interval over whcih RSSI values are averaged -->
 					<RSSIAveragingInterval units="secs">5</RSSIAveragingInterval>
 					<!-- RSSI threshold below which MAC hysteresis timer is not started -->
-					<RSSIMacTimerThreshold units="dbm">-85</RSSIMacTimerThreshold>
+					<RSSIMacTimerThreshold units="dbm">-91</RSSIMacTimerThreshold>
 					<!-- Periodic timer to evaluate CQE parameters including RSSI and MAC stats -->
 					<!-- Setting CQETimer to zero disables the CQE -->
 					<CQETimer units="secs">2</CQETimer>

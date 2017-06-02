@@ -84,10 +84,10 @@
 				<CQE_Thresholds Id="128">
                     <!-- RSSI threshold from which all values greather than it is considered as good for wlan to be -->
 					<!-- a candidate for interface selection -->
-					<RSSIAddThreshold units="dbm">-65,-65</RSSIAddThreshold>
+					<RSSIAddThreshold units="dbm">-75,-75</RSSIAddThreshold>
 					<!-- RSSI threshold from which all values lesser than it is considered as bad for wlan to be -->
 					<!-- a candidate for interface selection -->
-					<RSSIDropThreshold units="dbm">-65,-65</RSSIDropThreshold>
+					<RSSIDropThreshold units="dbm">-75,-75</RSSIDropThreshold>
 					<!-- Interval over whcih RSSI values are averaged -->
 					<RSSIAveragingInterval units="secs">5</RSSIAveragingInterval>
 					<!-- RSSI threshold below which MAC hysteresis timer is not started -->
@@ -138,10 +138,10 @@
 				<CQE_Thresholds Id="128">
 					<!-- RSSI threshold from which all values greather than it is considered as good for wlan to be -->
 					<!-- a candidate for interface selection -->
-					<RSSIAddThreshold units="dbm">-65,-65</RSSIAddThreshold>
+					<RSSIAddThreshold units="dbm">-75,-75</RSSIAddThreshold>
 					<!-- RSSI threshold from which all values lesser than it is considered as bad for wlan to be -->
 					<!-- a candidate for interface selection -->
-					<RSSIDropThreshold units="dbm">-65,-65</RSSIDropThreshold>
+					<RSSIDropThreshold units="dbm">-75,-75</RSSIDropThreshold>
 					<!-- RSSI threshold from which to select linear model to compute CQE metric -->
 					<RSSIModelThreshold units="dbm">-74</RSSIModelThreshold>
 					<!-- Interval over whcih RSSI values are averaged -->
