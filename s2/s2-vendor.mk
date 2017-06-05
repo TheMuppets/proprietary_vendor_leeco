@@ -55,6 +55,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/leeco/s2/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
     vendor/leeco/s2/proprietary/bin/yepdiag:system/bin/yepdiag \
+    vendor/leeco/s2/proprietary/etc/UEISettings:system/etc/UEISettings \
+    vendor/leeco/s2/proprietary/etc/init.uei.sh:system/etc/init.uei.sh \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
