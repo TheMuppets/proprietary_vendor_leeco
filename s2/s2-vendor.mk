@@ -55,6 +55,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/leeco/s2/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
     vendor/leeco/s2/proprietary/bin/yepdiag:system/bin/yepdiag \
+    vendor/leeco/s2/proprietary/etc/UEISettings:system/etc/UEISettings \
+    vendor/leeco/s2/proprietary/etc/init.uei.sh:system/etc/init.uei.sh \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -192,6 +194,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
     vendor/leeco/s2/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/leeco/s2/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
+    vendor/leeco/s2/proprietary/lib/libbvfixed.so:system/lib/libbvfixed.so \
+    vendor/leeco/s2/proprietary/lib/libyzs_usc.so:system/lib/libyzs_usc.so \
     vendor/leeco/s2/proprietary/lib/libcamera_letv_algo.so:system/lib/libcamera_letv_algo.so \
     vendor/leeco/s2/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
     vendor/leeco/s2/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
@@ -914,4 +918,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     imscmlibrary \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    UEIQuicksetSDKLeTV \
+    LetvRemoteControl
