@@ -194,6 +194,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
     vendor/leeco/s2/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/leeco/s2/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
+    vendor/leeco/s2/proprietary/lib/libbvfixed.so:system/lib/libbvfixed.so \
+    vendor/leeco/s2/proprietary/lib/libyzs_usc.so:system/lib/libyzs_usc.so \
     vendor/leeco/s2/proprietary/lib/libcamera_letv_algo.so:system/lib/libcamera_letv_algo.so \
     vendor/leeco/s2/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
     vendor/leeco/s2/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
@@ -916,4 +918,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     imscmlibrary \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    UEIQuicksetSDKLeTV \
+    LetvRemoteControl
