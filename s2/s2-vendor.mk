@@ -55,6 +55,16 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/leeco/s2/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
     vendor/leeco/s2/proprietary/bin/yepdiag:system/bin/yepdiag \
+    vendor/leeco/s2/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile7.conf:system/vendor/etc/perf-profile7.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile8.conf:system/vendor/etc/perf-profile8.conf \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -90,16 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb \
     vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb \
     vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb \
-    vendor/leeco/s2/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
-    vendor/leeco/s2/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
-    vendor/leeco/s2/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
-    vendor/leeco/s2/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
-    vendor/leeco/s2/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
-    vendor/leeco/s2/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
-    vendor/leeco/s2/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
-    vendor/leeco/s2/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
-    vendor/leeco/s2/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile7.conf \
-    vendor/leeco/s2/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile8.conf \
     vendor/leeco/s2/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/leeco/s2/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/leeco/s2/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
