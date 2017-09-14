@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/leeco/s2/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/leeco/s2/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/leeco/s2/proprietary/bin/cnd:system/bin/cnd \
     vendor/leeco/s2/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/leeco/s2/proprietary/bin/dpm:system/bin/dpm \
