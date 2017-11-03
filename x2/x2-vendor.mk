@@ -173,8 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libentryexstd.so:system/lib/libentryexstd.so \
     vendor/leeco/x2/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
     vendor/leeco/x2/proprietary/lib/libjpush219.so:system/lib/libjpush219.so \
-    vendor/leeco/x2/proprietary/lib/liblog.so:system/lib/liblog.so \
-    vendor/leeco/x2/proprietary/lib/libminui.so:system/lib/libminui.so \
     vendor/leeco/x2/proprietary/lib/libmksdk_platform_jni.so:system/lib/libmksdk_platform_jni.so \
     vendor/leeco/x2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/leeco/x2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -186,7 +184,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/leeco/x2/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
     vendor/leeco/x2/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
-    vendor/leeco/x2/proprietary/lib64/libminui.so:system/lib64/libminui.so \
     vendor/leeco/x2/proprietary/vendor/etc/audio_output_policy_letv.conf:system/vendor/etc/audio_output_policy_letv.conf \
     vendor/leeco/x2/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/leeco/x2/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
