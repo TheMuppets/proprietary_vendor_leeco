@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
-    vendor/leeco/msm8996-common/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \

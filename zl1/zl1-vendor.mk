@@ -161,6 +161,19 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/firmware/a530v3_gpmu.fw2:system/vendor/firmware/a530v3_gpmu.fw2 \
     vendor/leeco/zl1/proprietary/vendor/firmware/a530v3_seq.fw2:system/vendor/firmware/a530v3_seq.fw2 \
     vendor/leeco/zl1/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_gpmu.fw2:system/vendor/firmware/zl0/a530_gpmu.fw2 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_pfp.fw:system/vendor/firmware/zl0/a530_pfp.fw \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_pm4.fw:system/vendor/firmware/zl0/a530_pm4.fw \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_zap.b00:system/vendor/firmware/zl0/a530_zap.b00 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_zap.b01:system/vendor/firmware/zl0/a530_zap.b01 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_zap.b02:system/vendor/firmware/zl0/a530_zap.b02 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_zap.elf:system/vendor/firmware/zl0/a530_zap.elf \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_zap.mdt:system/vendor/firmware/zl0/a530_zap.mdt \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530v1_pfp.fw:system/vendor/firmware/zl0/a530v1_pfp.fw \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530v1_pm4.fw:system/vendor/firmware/zl0/a530v1_pm4.fw \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530v2_seq.fw2:system/vendor/firmware/zl0/a530v2_seq.fw2 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530v3_gpmu.fw2:system/vendor/firmware/zl0/a530v3_gpmu.fw2 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530v3_seq.fw2:system/vendor/firmware/zl0/a530v3_seq.fw2 \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX230_lg_PdafLibrary.so:system/vendor/lib/libSonyIMX230_lg_PdafLibrary.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so:system/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:system/vendor/lib/libSonyIMX298PdafLibrary.so \
