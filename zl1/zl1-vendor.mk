@@ -18,17 +18,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/leeco/zl1/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/leeco/zl1/proprietary/bin/gx_fpd:system/bin/gx_fpd \
-    vendor/leeco/zl1/proprietary/bin/ifaa_daemon:system/bin/ifaa_daemon \
     vendor/leeco/zl1/proprietary/bin/ks:system/bin/ks \
     vendor/leeco/zl1/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/leeco/zl1/proprietary/bin/ppd:system/bin/ppd \
     vendor/leeco/zl1/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/leeco/zl1/proprietary/bin/ssr_setup:system/bin/ssr_setup \
-    vendor/leeco/zl1/proprietary/bin/tbaseLoader:system/bin/tbaseLoader \
     vendor/leeco/zl1/proprietary/bin/tloc_daemon:system/bin/tloc_daemon \
-    vendor/leeco/zl1/proprietary/bin/usf_proximity:system/bin/usf_proximity \
-    vendor/leeco/zl1/proprietary/bin/usf_tester:system/bin/usf_tester \
-    vendor/leeco/zl1/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
     vendor/leeco/zl1/proprietary/etc/ad_calib.cfg:system/etc/ad_calib.cfg \
     vendor/leeco/zl1/proprietary/etc/ad_calib_le_zl1.cfg:system/etc/ad_calib_le_zl1.cfg \
     vendor/leeco/zl1/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
@@ -137,7 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib64/libfp_client5118m.so:system/lib64/libfp_client5118m.so \
     vendor/leeco/zl1/proprietary/lib64/libfpnav5118m.so:system/lib64/libfpnav5118m.so \
     vendor/leeco/zl1/proprietary/lib64/libfpservice5118m.so:system/lib64/libfpservice5118m.so \
-    vendor/leeco/zl1/proprietary/vendor/bin/fidoca:system/vendor/bin/fidoca \
     vendor/leeco/zl1/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
