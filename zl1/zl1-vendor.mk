@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -161,10 +161,19 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/leeco/zl1/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX230_lg_PdafLibrary.so:system/vendor/lib/libSonyIMX230_lg_PdafLibrary.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so:system/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:system/vendor/lib/libSonyIMX298PdafLibrary.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298_ofilm_PdafLibrary.so:system/vendor/lib/libSonyIMX298_ofilm_PdafLibrary.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298_ofilm_ak_PdafLibrary.so:system/vendor/lib/libSonyIMX298_ofilm_ak_PdafLibrary.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298_truly_ak_PdafLibrary.so:system/vendor/lib/libSonyIMX298_truly_ak_PdafLibrary.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libactuator_bu63165.so:system/vendor/lib/libactuator_bu63165.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libactuator_bu64297.so:system/vendor/lib/libactuator_bu64297.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libactuator_dw9800w.so:system/vendor/lib/libactuator_dw9800w.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_1080p_preview.so:system/vendor/lib/libchromatix_imx298_1080p_preview.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_1080p_snapshot.so:system/vendor/lib/libchromatix_imx298_1080p_snapshot.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_1080p_video.so:system/vendor/lib/libchromatix_imx298_1080p_video.so \
