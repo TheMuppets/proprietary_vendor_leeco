@@ -176,7 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/etc/sensors/sensors_dbg_config.txt:system/etc/sensors/sensors_dbg_config.txt \
     vendor/leeco/s2/proprietary/etc/settings/mono_qcom.cnt:system/etc/settings/mono_qcom.cnt \
     vendor/leeco/s2/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
-    vendor/leeco/s2/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/leeco/s2/proprietary/lib/hw/sensors.msm8952.so:system/lib/hw/sensors.msm8952.so \
     vendor/leeco/s2/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/leeco/s2/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
@@ -194,13 +193,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
     vendor/leeco/s2/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/leeco/s2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/leeco/s2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/leeco/s2/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/leeco/s2/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/leeco/s2/proprietary/lib/libmpkernel.so:system/lib/libmpkernel.so \
     vendor/leeco/s2/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
     vendor/leeco/s2/proprietary/lib/libmputility.so:system/lib/libmputility.so \
-    vendor/leeco/s2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/leeco/s2/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
     vendor/leeco/s2/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/leeco/s2/proprietary/lib64/hw/fingerprint.vendor.msm8952.so:system/lib64/hw/fingerprint.vendor.msm8952.so \
