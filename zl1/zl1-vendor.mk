@@ -66,6 +66,19 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
     vendor/leeco/zl1/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
     vendor/leeco/zl1/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_gpmu.fw2:system/etc/firmware/zl0/a530_gpmu.fw2 \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_pfp.fw:system/etc/firmware/zl0/a530_pfp.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_pm4.fw:system/etc/firmware/zl0/a530_pm4.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.b00:system/etc/firmware/zl0/a530_zap.b00 \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.b01:system/etc/firmware/zl0/a530_zap.b01 \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.b02:system/etc/firmware/zl0/a530_zap.b02 \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.elf:system/etc/firmware/zl0/a530_zap.elf \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.mdt:system/etc/firmware/zl0/a530_zap.mdt \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v1_pfp.fw:system/etc/firmware/zl0/a530v1_pfp.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v1_pm4.fw:system/etc/firmware/zl0/a530v1_pm4.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v2_seq.fw2:system/etc/firmware/zl0/a530v2_seq.fw2 \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v3_gpmu.fw2:system/etc/firmware/zl0/a530v3_gpmu.fw2 \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v3_seq.fw2:system/etc/firmware/zl0/a530v3_seq.fw2 \
     vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -173,7 +186,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/bin/fidoca:system/vendor/bin/fidoca \
     vendor/leeco/zl1/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
-    vendor/leeco/zl1/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/leeco/zl1/proprietary/vendor/firmware/libpn548ad_fw.so:system/etc/vendor/libpn548ad_fw.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX230_lg_PdafLibrary.so:system/vendor/lib/libSonyIMX230_lg_PdafLibrary.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so:system/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:system/vendor/lib/libSonyIMX298PdafLibrary.so \
