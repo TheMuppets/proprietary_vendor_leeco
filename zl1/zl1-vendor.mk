@@ -110,6 +110,19 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/leeco/zl1/proprietary/etc/firmware/sii6400_wihd_mhl.fw:system/etc/firmware/sii6400_wihd_mhl.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_gpmu.fw2:system/etc/firmware/zl0/a530_gpmu.fw2 \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_pfp.fw:system/etc/firmware/zl0/a530_pfp.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_pm4.fw:system/etc/firmware/zl0/a530_pm4.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.b00:system/etc/firmware/zl0/a530_zap.b00 \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.b01:system/etc/firmware/zl0/a530_zap.b01 \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.b02:system/etc/firmware/zl0/a530_zap.b02 \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.elf:system/etc/firmware/zl0/a530_zap.elf \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530_zap.mdt:system/etc/firmware/zl0/a530_zap.mdt \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v1_pfp.fw:system/etc/firmware/zl0/a530v1_pfp.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v1_pm4.fw:system/etc/firmware/zl0/a530v1_pm4.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v2_seq.fw2:system/etc/firmware/zl0/a530v2_seq.fw2 \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v3_gpmu.fw2:system/etc/firmware/zl0/a530v3_gpmu.fw2 \
+    vendor/leeco/zl1/proprietary/etc/firmware/zl0/a530v3_seq.fw2:system/etc/firmware/zl0/a530v3_seq.fw2 \
     vendor/leeco/zl1/proprietary/etc/qxdm/1.cfg:system/etc/qxdm/1.cfg \
     vendor/leeco/zl1/proprietary/etc/qxdm/gps_log.cfg:system/etc/qxdm/gps_log.cfg \
     vendor/leeco/zl1/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
