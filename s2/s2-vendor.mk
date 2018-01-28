@@ -56,6 +56,16 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/leeco/s2/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
     vendor/leeco/s2/proprietary/bin/yepdiag:system/bin/yepdiag \
+    vendor/leeco/s2/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile7.conf:system/vendor/etc/perf-profile7.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/perf-profile8.conf:system/vendor/etc/perf-profile8.conf \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -913,3 +923,9 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
     rcsimssettings
+
+# Perf
+PRODUCT_PACKAGES += \
+    com.qualcomm.qti.Performance.xml \
+    libqti_performance \
+    QPerformance
