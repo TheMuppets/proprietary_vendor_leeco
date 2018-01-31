@@ -163,55 +163,6 @@ LensInfo : Information of the lens present in the module.
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>imx318</SensorName>
-    <ActuatorName>ak7371</ActuatorName>
-    <EepromName>sony_imx318</EepromName>
-    <OisName>bu24218</OisName>
-    <FlashName>i2c</FlashName>
-    <ChromatixName>imx318_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>4.67</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>1.97</TotalFocusDistance>
-      <HorizontalViewAngle>64.8</HorizontalViewAngle>
-      <VerticalViewAngle>51.2</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>ov4688</SensorName>
-    <EepromName>ov4688</EepromName>
-    <ChromatixName>ov4688_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
-    <CSIInfo>
-      <CSIDCore>2</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.53</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>1.2</TotalFocusDistance>
-      <HorizontalViewAngle>69.6</HorizontalViewAngle>
-      <VerticalViewAngle>43.0</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
     <CameraId>2</CameraId>
     <SensorName>ov8865</SensorName>
     <EepromName>ov8865</EepromName>
@@ -255,29 +206,6 @@ LensInfo : Information of the lens present in the module.
       <HorizontalViewAngle>69.6</HorizontalViewAngle>
       <VerticalViewAngle>43.0</VerticalViewAngle>
       <MinFocusDistance>0.47</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>ov2281</SensorName>
-    <FlashName>i2c</FlashName> <!--qcom pmic-->
-    <ChromatixName>ov2281_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x1F</LaneMask> <!-- or 07 qcom 1F -->
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>4.29</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>29.76</HorizontalViewAngle>
-      <VerticalViewAngle>18.45</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
 </CameraConfigurationRoot>
