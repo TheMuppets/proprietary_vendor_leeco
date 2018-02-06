@@ -429,6 +429,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libual.so:system/vendor/lib/libual.so \
     vendor/leeco/x2/proprietary/vendor/lib/libualutil.so:system/vendor/lib/libualutil.so \
     vendor/leeco/x2/proprietary/vendor/lib/libusndroute.so:system/vendor/lib/libusndroute.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/hw/fingerprint.qcom.so:system/vendor/lib64/hw/fingerprint.qcom.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmdtp.so:system/vendor/lib64/libmdtp.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmdtp_crypto.so:system/vendor/lib64/libmdtp_crypto.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
@@ -439,3 +440,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so \
     vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so
+
+
+PRODUCT_PACKAGES += \
+    QFingerprintService
