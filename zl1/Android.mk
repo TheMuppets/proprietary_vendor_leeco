@@ -18,22 +18,4 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),zl1)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := qdcm_calib_data_mdss_dsi_ft8716_1080p_video
-LOCAL_MODULE_OWNER := leeco
-LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video
-LOCAL_MODULE_OWNER := leeco
-LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
 endif

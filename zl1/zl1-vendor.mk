@@ -85,6 +85,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/leeco/zl1/proprietary/etc/firmware/sii6400_wihd_mhl.fw:system/etc/firmware/sii6400_wihd_mhl.fw \
+    vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml:system/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml \
+    vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml:system/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml \
+    vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:system/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
     vendor/leeco/zl1/proprietary/etc/qxdm/1.cfg:system/etc/qxdm/1.cfg \
     vendor/leeco/zl1/proprietary/etc/qxdm/gps_log.cfg:system/etc/qxdm/gps_log.cfg \
     vendor/leeco/zl1/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
@@ -480,7 +483,3 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libual.so:system/vendor/lib64/libual.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so
-
-PRODUCT_PACKAGES += \
-    qdcm_calib_data_mdss_dsi_ft8716_1080p_video \
-    qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video
