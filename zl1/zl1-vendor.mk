@@ -85,9 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/leeco/zl1/proprietary/etc/firmware/sii6400_wihd_mhl.fw:system/etc/firmware/sii6400_wihd_mhl.fw \
-    vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml:system/vendor/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml \
-    vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml:system/vendor/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml \
-    vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:system/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
     vendor/leeco/zl1/proprietary/etc/qxdm/1.cfg:system/etc/qxdm/1.cfg \
     vendor/leeco/zl1/proprietary/etc/qxdm/gps_log.cfg:system/etc/qxdm/gps_log.cfg \
     vendor/leeco/zl1/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
@@ -140,6 +137,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml:system/vendor/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml \
+    vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml:system/vendor/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml \
+    vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:system/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
     vendor/leeco/zl1/proprietary/vendor/firmware/a530_gpmu.fw2:system/vendor/firmware/a530_gpmu.fw2 \
     vendor/leeco/zl1/proprietary/vendor/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
     vendor/leeco/zl1/proprietary/vendor/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
