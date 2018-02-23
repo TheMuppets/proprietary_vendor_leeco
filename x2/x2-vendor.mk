@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/bin/ks:system/bin/ks \
     vendor/leeco/x2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/leeco/x2/proprietary/bin/ppd:system/bin/ppd \
+    vendor/leeco/x2/proprietary/vendor/bin/qfp-daemon:system/vendor/bin/qfp-daemon \
     vendor/leeco/x2/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/leeco/x2/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/leeco/x2/proprietary/bin/tloc_daemon:system/bin/tloc_daemon \
@@ -151,7 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/x2/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/leeco/x2/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
-    vendor/leeco/x2/proprietary/vendor/bin/qfp-daemon:system/vendor/bin/qfp-daemon \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -160,6 +160,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/workspaceFile.qwsp:system/vendor/etc/acdbdata/MTP/workspaceFile.qwsp \
+    vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:system/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
+    vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt.xml:system/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt.xml \
+    vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:system/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
     vendor/leeco/x2/proprietary/vendor/firmware/a225_pfp.fw:system/vendor/firmware/a225_pfp.fw \
     vendor/leeco/x2/proprietary/vendor/firmware/a225_pm4.fw:system/vendor/firmware/a225_pm4.fw \
     vendor/leeco/x2/proprietary/vendor/firmware/a225p5_pm4.fw:system/vendor/firmware/a225p5_pm4.fw \
@@ -440,7 +443,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so \
     vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so
-
 
 PRODUCT_PACKAGES += \
     QFingerprintService
