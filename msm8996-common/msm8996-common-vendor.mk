@@ -128,6 +128,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/hdcp1prov:system/vendor/bin/hdcp1prov \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/hdcp2p2prov:system/vendor/bin/hdcp2p2prov \
+    vendor/leeco/msm8996-common/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
