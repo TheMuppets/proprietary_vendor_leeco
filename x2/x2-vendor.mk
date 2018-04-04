@@ -209,28 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_60_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_60_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_90.so:system/vendor/lib/libchromatix_imx230_hfr_90.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_hfr_90_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_90_lc898212xd.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_1080p_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_1080p_preview_lc898212xd.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_4k_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_4k_video_lc898212xd.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_common.so:system/vendor/lib/libchromatix_imx230_lg_common.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx230_lg_cpp_hfr_120.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx230_lg_cpp_hfr_60.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_preview.so:system/vendor/lib/libchromatix_imx230_lg_cpp_preview.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_snapshot.so:system/vendor/lib/libchromatix_imx230_lg_cpp_snapshot.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_video.so:system/vendor/lib/libchromatix_imx230_lg_cpp_video.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_cpp_video_4k.so:system/vendor/lib/libchromatix_imx230_lg_cpp_video_4k.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_default_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_default_preview_lc898212xd.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hdr_snapshot_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_hdr_snapshot_lc898212xd.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_120.so:system/vendor/lib/libchromatix_imx230_lg_hfr_120.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_120_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_hfr_120_lc898212xd.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_60.so:system/vendor/lib/libchromatix_imx230_lg_hfr_60.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_hfr_60_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_hfr_60_lc898212xd.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_postproc.so:system/vendor/lib/libchromatix_imx230_lg_postproc.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_preview.so:system/vendor/lib/libchromatix_imx230_lg_preview.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_snapshot.so:system/vendor/lib/libchromatix_imx230_lg_snapshot.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_lg_snapshot_hdr.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_video_16M_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_video_16M_lc898212xd.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_video_4k.so:system/vendor/lib/libchromatix_imx230_lg_video_4k.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_lg_zsl_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_lg_zsl_preview_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_postproc.so:system/vendor/lib/libchromatix_imx230_postproc.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_preview.so:system/vendor/lib/libchromatix_imx230_preview.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_raw_hdr.so:system/vendor/lib/libchromatix_imx230_raw_hdr.so \
