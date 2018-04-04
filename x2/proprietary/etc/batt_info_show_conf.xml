@@ -2,27 +2,27 @@
 <batteryDatas>
 	<batteryData>
 		<name>BT_00:</name>
-		<valueKey>/sys/class/power_supply/battery/present</valueKey>
+		<valueKey>/sys/class/power_supply/battery/capacity</valueKey>
 	</batteryData>
 	<batteryData>
 		<name>BT_01:</name>
-		<valueKey>/sys/class/power_supply/battery/charging_enabled</valueKey>
+		<valueKey>/sys/class/power_supply/battery/status</valueKey>
 	</batteryData>
 	<batteryData>
 		<name>BT_02:</name>
-		<valueKey>/sys/class/power_supply/battery/battery_charging_enabled</valueKey>
-	</batteryData>
-	<batteryData>
-		<name>BT_03:</name>
 		<valueKey>/sys/class/power_supply/battery/charge_type</valueKey>
 	</batteryData>
 	<batteryData>
+		<name>BT_03:</name>
+		<valueKey>/sys/class/power_supply/battery/voltage_now</valueKey>
+	</batteryData>
+	<batteryData>
 		<name>BT_04:</name>
-		<valueKey>/sys/class/power_supply/battery/temp</valueKey>
+		<valueKey>/sys/class/power_supply/battery/current_now</valueKey>
 	</batteryData>
 	<batteryData>
 		<name>BT_05:</name>
-		<valueKey>/sys/class/power_supply/battery/status</valueKey>
+		<valueKey>/sys/class/power_supply/battery/temp</valueKey>
 	</batteryData>
 	<batteryData>
 		<name>BT_06:</name>
@@ -30,99 +30,139 @@
 	</batteryData>
 	<batteryData>
 		<name>BT_07:</name>
-		<valueKey>/sys/class/power_supply/battery/capacity</valueKey>
-	</batteryData>
-	<batteryData>
-		<name>BT_08:</name>
-		<valueKey>/sys/class/power_supply/battery/system_temp_level</valueKey>
-	</batteryData>
-	<batteryData>
-		<name>BT_09:</name>
-		<valueKey>/sys/class/power_supply/battery/le_usb_temp_level</valueKey>
-	</batteryData>
-	<batteryData>
-		<name>BT_10:</name>
-		<valueKey>/sys/class/power_supply/battery/current_now</valueKey>
-	</batteryData>
-	<batteryData>
-		<name>BT_11:</name>
-		<valueKey>/sys/class/power_supply/battery/voltage_now</valueKey>
-	</batteryData>
-	<batteryData>
-		<name>BT_12:</name>
 		<valueKey>/sys/class/power_supply/battery/input_current_max</valueKey>
 	</batteryData>
 	<batteryData>
-		<name>BM_00:</name>
-		<valueKey>/sys/class/power_supply/bms/resistance</valueKey>
+		<name>BT_08:</name>
+		<valueKey>/sys/class/power_supply/battery/constant_charge_current_max</valueKey>
 	</batteryData>
 	<batteryData>
-		<name>BM_01:</name>
-		<valueKey>/sys/class/power_supply/bms/resistance_id</valueKey>
+		<name>BT_09:</name>
+		<valueKey>/sys/class/power_supply/battery/system_temp_level</valueKey>
 	</batteryData>
 	<batteryData>
-		<name>BM_02:</name>
-		<valueKey>/sys/class/power_supply/bms/temp_cool</valueKey>
+		<name>BT_10:</name>
+		<valueKey>/sys/class/power_supply/battery/pd_power_level</valueKey>
 	</batteryData>
 	<batteryData>
-		<name>BM_03:</name>
-		<valueKey>/sys/class/power_supply/bms/temp_warm</valueKey>
+		<name>BT_11:</name>
+		<valueKey>/sys/class/power_supply/battery/iusb_control_temp_level</valueKey>
 	</batteryData>
 	<batteryData>
-		<name>BM_04:</name>
-		<valueKey>/sys/class/power_supply/bms/charge_now_raw</valueKey>
+		<name>BT_12:</name>
+		<valueKey>/sys/class/power_supply/battery/le_usb_temp_level</valueKey>
 	</batteryData>
 	<batteryData>
-		<name>BM_05:</name>
-		<valueKey>/sys/class/power_supply/bms/charge_full</valueKey>
+		<name>BT_13:</name>
+		<valueKey>/sys/class/power_supply/battery/charging_enabled</valueKey>
 	</batteryData>
 	<batteryData>
-		<name>BM_06:</name>
-		<valueKey>/sys/class/power_supply/bms/charge_full_design</valueKey>
+		<name>BT_14:</name>
+		<valueKey>/sys/class/power_supply/battery/battery_charging_enabled</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BT_15:</name>
+		<valueKey>/sys/class/power_supply/battery/device/misc_vfloat_adjust_trim</valueKey>
 	</batteryData>
 	<batteryData>
 		<name>AU_00:</name>
-		<valueKey>/sys/class/power_supply/usb/present</valueKey>
-	</batteryData>
-	<batteryData>
-		<name>AU_01:</name>
-		<valueKey>/sys/class/power_supply/usb/online</valueKey>
-	</batteryData>
-	<batteryData>
-		<name>AU_02:</name>
-		<valueKey>/sys/class/power_supply/usb/usb_otg</valueKey>
-	</batteryData>
-	<batteryData>
-		<name>AU_03:</name>
 		<valueKey>/sys/class/power_supply/usb/type</valueKey>
 	</batteryData>
 	<batteryData>
-		<name>AU_04:</name>
-		<valueKey>/sys/class/power_supply/usb/le_usbin_temp</valueKey>
-	</batteryData>
-	<batteryData>
-		<name>AU_05:</name>
-		<valueKey>/sys/class/power_supply/usb/le_vph_voltage</valueKey>
-	</batteryData>
-	<batteryData>
-		<name>AU_06:</name>
+		<name>AU_01:</name>
 		<valueKey>/sys/class/power_supply/usb/voltage_now</valueKey>
 	</batteryData>
 	<batteryData>
-		<name>AU_07:</name>
+		<name>AU_02:</name>
 		<valueKey>/sys/class/power_supply/usb/current_max</valueKey>
 	</batteryData>
 	<batteryData>
+		<name>AU_03:</name>
+		<valueKey>/sys/class/power_supply/usb/present</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>AU_04:</name>
+		<valueKey>/sys/class/power_supply/usb/online</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>AU_05:</name>
+		<valueKey>/sys/class/power_supply/usb/usb_otg</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_00:</name>
+		<valueKey>/sys/class/power_supply/bms/capacity</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_01:</name>
+		<valueKey>/sys/class/power_supply/bms/device/soc_monotonic</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_02:</name>
+		<valueKey>/sys/class/power_supply/bms/device/soc_system</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_03:</name>
+		<valueKey>/sys/class/power_supply/bms/device/soc_battery</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_04:</name>
+		<valueKey>/sys/class/power_supply/bms/device/soc_cc</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_05:</name>
+		<valueKey>/sys/class/power_supply/bms/device/soc_full</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_06:</name>
+		<valueKey>/sys/class/power_supply/bms/device/soc_cutoff</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_07:</name>
+		<valueKey>/sys/class/power_supply/bms/charge_full_design</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_08:</name>
+		<valueKey>/sys/class/power_supply/bms/charge_full</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_09:</name>
+		<valueKey>/sys/class/power_supply/bms/charge_now_raw</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_10:</name>
+		<valueKey>/sys/class/power_supply/bms/voltage_ocv</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_11:</name>
+		<valueKey>/sys/class/power_supply/bms/resistance</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_12:</name>
+		<valueKey>/sys/class/power_supply/bms/resistance_id</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_13:</name>
+		<valueKey>/sys/class/power_supply/bms/temp_cool</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_14:</name>
+		<valueKey>/sys/class/power_supply/bms/temp_warm</valueKey>
+	</batteryData>
+	<batteryData>
+		<name>BM_15:</name>
+		<valueKey>/sys/class/power_supply/bms/device/batt_int</valueKey>
+	</batteryData>
+	<batteryData>
 		<name>AP_00:</name>
-		<valueKey>/sys/class/power_supply/usb-parallel/present</valueKey>
+		<valueKey>/sys/class/power_supply/usb-parallel/status</valueKey>
 	</batteryData>
 	<batteryData>
 		<name>AP_01:</name>
-		<valueKey>/sys/class/power_supply/usb-parallel/charging_enabled</valueKey>
+		<valueKey>/sys/class/power_supply/usb-parallel/present</valueKey>
 	</batteryData>
 	<batteryData>
 		<name>AP_02:</name>
-		<valueKey>/sys/class/power_supply/usb-parallel/status</valueKey>
+		<valueKey>/sys/class/power_supply/usb-parallel/charging_enabled</valueKey>
 	</batteryData>
 	<batteryData>
 		<name>AP_03:</name>
