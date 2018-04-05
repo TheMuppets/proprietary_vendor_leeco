@@ -42,55 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/leeco/x2/proprietary/etc/dts/dts-m6m8-lic.key:system/etc/dts/dts-m6m8-lic.key \
     vendor/leeco/x2/proprietary/etc/ecc_conf.xml:system/etc/ecc_conf.xml \
-    vendor/leeco/x2/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
-    vendor/leeco/x2/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
-    vendor/leeco/x2/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
-    vendor/leeco/x2/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
-    vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b00:system/etc/firmware/cppf.b00 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b01:system/etc/firmware/cppf.b01 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b02:system/etc/firmware/cppf.b02 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b03:system/etc/firmware/cppf.b03 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b04:system/etc/firmware/cppf.b04 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b05:system/etc/firmware/cppf.b05 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b06:system/etc/firmware/cppf.b06 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.mbn:system/etc/firmware/cppf.mbn \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.mdt:system/etc/firmware/cppf.mdt \
-    vendor/leeco/x2/proprietary/etc/firmware/cyccg.cybin:system/etc/firmware/cyccg.cybin \
-    vendor/leeco/x2/proprietary/etc/firmware/cyccg_table.cybin:system/etc/firmware/cyccg_table.cybin \
-    vendor/leeco/x2/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/modem_pr/mbn_upgrade_info:system/etc/firmware/modem_pr/mbn_upgrade_info \
-    vendor/leeco/x2/proprietary/etc/firmware/modem_pr/mcfg_sw_att.mbn:system/etc/firmware/modem_pr/mcfg_sw_att.mbn \
-    vendor/leeco/x2/proprietary/etc/firmware/modem_pr/mcfg_sw_cmcc.mbn:system/etc/firmware/modem_pr/mcfg_sw_cmcc.mbn \
-    vendor/leeco/x2/proprietary/etc/firmware/modem_pr/mcfg_sw_ct.mbn:system/etc/firmware/modem_pr/mcfg_sw_ct.mbn \
-    vendor/leeco/x2/proprietary/etc/firmware/modem_pr/mcfg_sw_cu.mbn:system/etc/firmware/modem_pr/mcfg_sw_cu.mbn \
-    vendor/leeco/x2/proprietary/etc/firmware/modem_pr/mcfg_sw_others.mbn:system/etc/firmware/modem_pr/mcfg_sw_others.mbn \
-    vendor/leeco/x2/proprietary/etc/firmware/modem_pr/mcfg_sw_reliance.mbn:system/etc/firmware/modem_pr/mcfg_sw_reliance.mbn \
-    vendor/leeco/x2/proprietary/etc/firmware/modem_pr/mcfg_sw_sprint.mbn:system/etc/firmware/modem_pr/mcfg_sw_sprint.mbn \
-    vendor/leeco/x2/proprietary/etc/firmware/modem_pr/mcfg_sw_tmo.mbn:system/etc/firmware/modem_pr/mcfg_sw_tmo.mbn \
-    vendor/leeco/x2/proprietary/etc/firmware/modem_pr/mcfg_sw_verizon.mbn:system/etc/firmware/modem_pr/mcfg_sw_verizon.mbn \
-    vendor/leeco/x2/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
-    vendor/leeco/x2/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/leeco/x2/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/leeco/x2/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/leeco/x2/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/leeco/x2/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/leeco/x2/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/leeco/x2/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/leeco/x2/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/leeco/x2/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/leeco/x2/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/leeco/x2/proprietary/etc/firmware/sii6400_wihd_mhl.fw:system/etc/firmware/sii6400_wihd_mhl.fw \
-    vendor/leeco/x2/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
     vendor/leeco/x2/proprietary/etc/init.uei.sh:system/etc/init.uei.sh \
     vendor/leeco/x2/proprietary/etc/qvop/antispoofing.bin:system/etc/qvop/antispoofing.bin \
     vendor/leeco/x2/proprietary/etc/qvop/cmudict.bin:system/etc/qvop/cmudict.bin \
@@ -172,6 +123,55 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/firmware/a530v2_seq.fw2:system/vendor/firmware/a530v2_seq.fw2 \
     vendor/leeco/x2/proprietary/vendor/firmware/a530v3_gpmu.fw2:system/vendor/firmware/a530v3_gpmu.fw2 \
     vendor/leeco/x2/proprietary/vendor/firmware/a530v3_seq.fw2:system/vendor/firmware/a530v3_seq.fw2 \
+    vendor/leeco/x2/proprietary/vendor/firmware/Signedrompatch_v20.bin:system/vendor/firmware/Signedrompatch_v20.bin \
+    vendor/leeco/x2/proprietary/vendor/firmware/Signedrompatch_v21.bin:system/vendor/firmware/Signedrompatch_v21.bin \
+    vendor/leeco/x2/proprietary/vendor/firmware/Signedrompatch_v24.bin:system/vendor/firmware/Signedrompatch_v24.bin \
+    vendor/leeco/x2/proprietary/vendor/firmware/Signedrompatch_v30.bin:system/vendor/firmware/Signedrompatch_v30.bin \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:system/vendor/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:system/vendor/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:system/vendor/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b00:system/vendor/firmware/cppf.b00 \
+    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b01:system/vendor/firmware/cppf.b01 \
+    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b02:system/vendor/firmware/cppf.b02 \
+    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b03:system/vendor/firmware/cppf.b03 \
+    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b04:system/vendor/firmware/cppf.b04 \
+    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b05:system/vendor/firmware/cppf.b05 \
+    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b06:system/vendor/firmware/cppf.b06 \
+    vendor/leeco/x2/proprietary/vendor/firmware/cppf.mbn:system/vendor/firmware/cppf.mbn \
+    vendor/leeco/x2/proprietary/vendor/firmware/cppf.mdt:system/vendor/firmware/cppf.mdt \
+    vendor/leeco/x2/proprietary/vendor/firmware/cyccg.cybin:system/vendor/firmware/cyccg.cybin \
+    vendor/leeco/x2/proprietary/vendor/firmware/cyccg_table.cybin:system/vendor/firmware/cyccg_table.cybin \
+    vendor/leeco/x2/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/modem_pr/mbn_upgrade_info:system/vendor/firmware/modem_pr/mbn_upgrade_info \
+    vendor/leeco/x2/proprietary/vendor/firmware/modem_pr/mcfg_sw_att.mbn:system/vendor/firmware/modem_pr/mcfg_sw_att.mbn \
+    vendor/leeco/x2/proprietary/vendor/firmware/modem_pr/mcfg_sw_cmcc.mbn:system/vendor/firmware/modem_pr/mcfg_sw_cmcc.mbn \
+    vendor/leeco/x2/proprietary/vendor/firmware/modem_pr/mcfg_sw_ct.mbn:system/vendor/firmware/modem_pr/mcfg_sw_ct.mbn \
+    vendor/leeco/x2/proprietary/vendor/firmware/modem_pr/mcfg_sw_cu.mbn:system/vendor/firmware/modem_pr/mcfg_sw_cu.mbn \
+    vendor/leeco/x2/proprietary/vendor/firmware/modem_pr/mcfg_sw_others.mbn:system/vendor/firmware/modem_pr/mcfg_sw_others.mbn \
+    vendor/leeco/x2/proprietary/vendor/firmware/modem_pr/mcfg_sw_reliance.mbn:system/vendor/firmware/modem_pr/mcfg_sw_reliance.mbn \
+    vendor/leeco/x2/proprietary/vendor/firmware/modem_pr/mcfg_sw_sprint.mbn:system/vendor/firmware/modem_pr/mcfg_sw_sprint.mbn \
+    vendor/leeco/x2/proprietary/vendor/firmware/modem_pr/mcfg_sw_tmo.mbn:system/vendor/firmware/modem_pr/mcfg_sw_tmo.mbn \
+    vendor/leeco/x2/proprietary/vendor/firmware/modem_pr/mcfg_sw_verizon.mbn:system/vendor/firmware/modem_pr/mcfg_sw_verizon.mbn \
+    vendor/leeco/x2/proprietary/vendor/firmware/nfc_test.bin:system/vendor/firmware/nfc_test.bin \
+    vendor/leeco/x2/proprietary/vendor/firmware/nvm_tlv.bin:system/vendor/firmware/nvm_tlv.bin \
+    vendor/leeco/x2/proprietary/vendor/firmware/nvm_tlv_1.3.bin:system/vendor/firmware/nvm_tlv_1.3.bin \
+    vendor/leeco/x2/proprietary/vendor/firmware/nvm_tlv_2.1.bin:system/vendor/firmware/nvm_tlv_2.1.bin \
+    vendor/leeco/x2/proprietary/vendor/firmware/nvm_tlv_3.0.bin:system/vendor/firmware/nvm_tlv_3.0.bin \
+    vendor/leeco/x2/proprietary/vendor/firmware/nvm_tlv_3.2.bin:system/vendor/firmware/nvm_tlv_3.2.bin \
+    vendor/leeco/x2/proprietary/vendor/firmware/rampatch_tlv.img:system/vendor/firmware/rampatch_tlv.img \
+    vendor/leeco/x2/proprietary/vendor/firmware/rampatch_tlv_1.3.tlv:system/vendor/firmware/rampatch_tlv_1.3.tlv \
+    vendor/leeco/x2/proprietary/vendor/firmware/rampatch_tlv_2.1.tlv:system/vendor/firmware/rampatch_tlv_2.1.tlv \
+    vendor/leeco/x2/proprietary/vendor/firmware/rampatch_tlv_3.0.tlv:system/vendor/firmware/rampatch_tlv_3.0.tlv \
+    vendor/leeco/x2/proprietary/vendor/firmware/rampatch_tlv_3.2.tlv:system/vendor/firmware/rampatch_tlv_3.2.tlv \
+    vendor/leeco/x2/proprietary/vendor/firmware/sii6400_wihd_mhl.fw:system/vendor/firmware/sii6400_wihd_mhl.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/tfa98xx.cnt:system/vendor/firmware/tfa98xx.cnt \
     vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:system/vendor/lib/libSonyIMX230PdafLibrary.so \
     vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230_lg_PdafLibrary.so:system/vendor/lib/libSonyIMX230_lg_PdafLibrary.so \
     vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so:system/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so \
