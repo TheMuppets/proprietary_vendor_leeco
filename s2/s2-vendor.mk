@@ -843,7 +843,8 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \
-    imssettings \
+    PowerOffAlarm \
+    dpmserviceapp \
     QtiTelephonyServicelibrary \
     qcrilhook \
     qti-telephony-common
