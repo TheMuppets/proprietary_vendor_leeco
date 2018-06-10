@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/stargate/qfp_config.txt:system/etc/stargate/qfp_config.txt \
     vendor/leeco/x2/proprietary/etc/stargate/wakeup/templates/template_imaginary.bin:system/etc/stargate/wakeup/templates/template_imaginary.bin \
     vendor/leeco/x2/proprietary/etc/stargate/wakeup/templates/template_real.bin:system/etc/stargate/wakeup/templates/template_real.bin \
-    vendor/leeco/x2/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/leeco/x2/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
     vendor/leeco/x2/proprietary/etc/usf/mixer/mixer_paths_mtp.xml:system/etc/usf/mixer/mixer_paths_mtp.xml \
     vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg \
