@@ -428,6 +428,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/charger:system/vendor/bin/charger \
     vendor/leeco/s2/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/leeco/s2/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
+    vendor/leeco/s2/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/leeco/s2/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/leeco/s2/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/leeco/s2/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
