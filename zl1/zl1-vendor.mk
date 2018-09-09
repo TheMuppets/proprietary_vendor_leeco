@@ -469,7 +469,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libualutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libualutil.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libusndroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libusndroute.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libzeusisCameraAlgoSceneDetection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzeusisCameraAlgoSceneDetection.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/hw/fingerprint.vendor.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.vendor.msm8996.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/hw/gxfingerprint5118m.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gxfingerprint5118m.default.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libfp_client5118m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_client5118m.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libfpnav5118m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpnav5118m.so \
