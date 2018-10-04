@@ -53,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
     vendor/leeco/x2/proprietary/vendor/etc/qxdm/1.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/qxdm/1.cfg \
     vendor/leeco/x2/proprietary/vendor/etc/qxdm/gps_log.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/qxdm/gps_log.cfg \
+    vendor/leeco/x2/proprietary/vendor/etc/silence_short.wav:$(TARGET_COPY_OUT_VENDOR)/etc/silence_short.wav \
     vendor/leeco/x2/proprietary/vendor/etc/usf/form_factor_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/form_factor_mtp.cfg \
     vendor/leeco/x2/proprietary/vendor/etc/usf/mixer/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usf/mixer/mixer_paths_mtp.xml \
     vendor/leeco/x2/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg \
