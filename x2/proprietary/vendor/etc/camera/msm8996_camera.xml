@@ -86,6 +86,32 @@ LensInfo : Information of the lens present in the module.
 <CameraConfigurationRoot>
   <CameraModuleConfig>
     <CameraId>0</CameraId>
+    <SensorName>imx230_lg</SensorName>
+    <ActuatorName>bu63165</ActuatorName>
+    <EepromName>sony_imx230_plus</EepromName>
+    <OisName>bu63165</OisName>
+    <FlashName>i2c</FlashName>
+    <ChromatixName>imx230_lg_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>4.52</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.97</TotalFocusDistance>
+      <HorizontalViewAngle>66.2</HorizontalViewAngle>
+      <VerticalViewAngle>52.3</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>0</CameraId>
     <SensorName>imx230_sunny</SensorName>
     <ActuatorName>bu63165</ActuatorName>
     <EepromName>sony_imx230_plus</EepromName>
@@ -133,32 +159,6 @@ LensInfo : Information of the lens present in the module.
       <TotalFocusDistance>1.97</TotalFocusDistance>
       <HorizontalViewAngle>64.8</HorizontalViewAngle>
       <VerticalViewAngle>51.2</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>imx230_lg</SensorName>
-    <ActuatorName>bu63165</ActuatorName>
-    <EepromName>sony_imx230_plus</EepromName>
-    <OisName>bu63165</OisName>
-    <FlashName>i2c</FlashName>
-    <ChromatixName>imx230_lg_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>4.52</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>1.97</TotalFocusDistance>
-      <HorizontalViewAngle>66.2</HorizontalViewAngle>
-      <VerticalViewAngle>52.3</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
