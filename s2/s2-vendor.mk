@@ -452,6 +452,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/leeco/s2/proprietary/vendor/bin/DR_AP_Service:system/vendor/bin/DR_AP_Service \
     vendor/leeco/s2/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
+    vendor/leeco/s2/proprietary/vendor/bin/charger:system/vendor/bin/charger \
     vendor/leeco/s2/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/leeco/s2/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/leeco/s2/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
