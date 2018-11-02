@@ -105,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/firmware/cyccg_table.cybin:$(TARGET_COPY_OUT_VENDOR)/firmware/cyccg_table.cybin \
     vendor/leeco/zl1/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/leeco/zl1/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
-    vendor/leeco/zl1/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so \
     vendor/leeco/zl1/proprietary/vendor/firmware/modem_pr/mbn_upgrade_info:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_pr/mbn_upgrade_info \
     vendor/leeco/zl1/proprietary/vendor/firmware/modem_pr/mcfg_sw_att.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_pr/mcfg_sw_att.mbn \
     vendor/leeco/zl1/proprietary/vendor/firmware/modem_pr/mcfg_sw_cmcc.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_pr/mcfg_sw_cmcc.mbn \
@@ -472,6 +471,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libmpstream.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpstream.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmputility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmputility.so \
     vendor/leeco/zl1/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqcproximity.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcproximity.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
