@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
     vendor/leeco/zl1/proprietary/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
-    vendor/leeco/zl1/proprietary/vendor/bin/ftmdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/ftmdaemon \
     vendor/leeco/zl1/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
     vendor/leeco/zl1/proprietary/vendor/bin/mdtpd:$(TARGET_COPY_OUT_VENDOR)/bin/mdtpd \
     vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-daemon \
