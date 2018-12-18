@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
     vendor/leeco/zl1/proprietary/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
     vendor/leeco/zl1/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
-    vendor/leeco/zl1/proprietary/vendor/bin/mdtpd:$(TARGET_COPY_OUT_VENDOR)/bin/mdtpd \
     vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-daemon \
     vendor/leeco/zl1/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/leeco/zl1/proprietary/vendor/bin/ssr_diag:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_diag \
@@ -369,8 +368,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libletv_algo_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libletv_algo_jni.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libmdtp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdtp.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libmdtp_crypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdtp_crypto.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
@@ -485,8 +482,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libfp_client5118m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_client5118m.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libfpnav5118m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpnav5118m.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libfpservice5118m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice5118m.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libmdtp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdtp.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libmdtp_crypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdtp_crypto.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmm-dspp-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-dspp-utils.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmm-qdcm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm-diag.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libqcproximity.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcproximity.so \
