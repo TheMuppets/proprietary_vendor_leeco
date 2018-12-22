@@ -1,4 +1,5 @@
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,17 +24,6 @@ LOCAL_MODULE := libtfa9890
 LOCAL_MODULE_OWNER := leeco
 LOCAL_SRC_FILES_64 := proprietary/lib64/libtfa9890.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libtfa9890.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libantradio
-LOCAL_MODULE_OWNER := leeco
-LOCAL_SRC_FILES_64 := proprietary/lib64/libantradio.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libantradio.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
