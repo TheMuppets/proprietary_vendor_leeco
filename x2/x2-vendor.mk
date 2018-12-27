@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
     vendor/leeco/x2/proprietary/vendor/bin/ssr_diag:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_diag \
     vendor/leeco/x2/proprietary/vendor/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
-    vendor/leeco/x2/proprietary/vendor/bin/tloc_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/tloc_daemon \
     vendor/leeco/x2/proprietary/vendor/etc/ad_calib_x2.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/ad_calib_x2.cfg \
     vendor/leeco/x2/proprietary/vendor/etc/camera/imx230_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx230_chromatix.xml \
     vendor/leeco/x2/proprietary/vendor/etc/camera/imx230_lg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx230_lg_chromatix.xml \
