@@ -168,6 +168,18 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := UEIQuicksetSDKLeTV
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES := proprietary/vendor/app/UEIQuicksetSDKLeTV/UEIQuicksetSDKLeTV.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := QtiTelephonyServicelibrary
 LOCAL_MODULE_OWNER := leeco
 LOCAL_SRC_FILES := proprietary/framework/QtiTelephonyServicelibrary.jar
