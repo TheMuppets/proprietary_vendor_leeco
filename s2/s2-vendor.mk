@@ -125,8 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/leeco/s2/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
     vendor/leeco/s2/proprietary/lib/libcamera_letv_algo.so:system/lib/libcamera_letv_algo.so \
-    vendor/leeco/s2/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
-    vendor/leeco/s2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/leeco/s2/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/leeco/s2/proprietary/lib/libmpkernel.so:system/lib/libmpkernel.so \
     vendor/leeco/s2/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
