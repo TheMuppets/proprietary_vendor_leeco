@@ -17,11 +17,8 @@
 
 PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/bin/mdtpd:$(TARGET_COPY_OUT_VENDOR)/bin/mdtpd \
-    vendor/leeco/x2/proprietary/vendor/bin/mm-pp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-daemon \
     vendor/leeco/x2/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/leeco/x2/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
-    vendor/leeco/x2/proprietary/vendor/bin/ssr_diag:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_diag \
-    vendor/leeco/x2/proprietary/vendor/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
     vendor/leeco/x2/proprietary/vendor/bin/tloc_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/tloc_daemon \
     vendor/leeco/x2/proprietary/vendor/etc/ad_calib_x2.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/ad_calib_x2.cfg \
     vendor/leeco/x2/proprietary/vendor/etc/camera/imx230_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx230_chromatix.xml \
@@ -50,23 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/firmware/widevine.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b06 \
     vendor/leeco/x2/proprietary/vendor/firmware/widevine.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mbn \
     vendor/leeco/x2/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
-    vendor/leeco/x2/proprietary/vendor/etc/qxdm/1.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/qxdm/1.cfg \
-    vendor/leeco/x2/proprietary/vendor/etc/qxdm/gps_log.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/qxdm/gps_log.cfg \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/form_factor_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/form_factor_mtp.cfg \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/mixer/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usf/mixer/mixer_paths_mtp.xml \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_pocket_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_pocket_mtp.cfg \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_pocket_mtp_algo_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_pocket_mtp_algo_transparent_data.bin \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/readme.txt:$(TARGET_COPY_OUT_VENDOR)/etc/usf/readme.txt \
-    vendor/leeco/x2/proprietary/vendor/etc/usf/version.txt:$(TARGET_COPY_OUT_VENDOR)/etc/usf/version.txt \
     vendor/leeco/x2/proprietary/vendor/lib/libLetvCameraImageSDK.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLetvCameraImageSDK.so \
     vendor/leeco/x2/proprietary/vendor/lib/libamipengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamipengine.so \
     vendor/leeco/x2/proprietary/vendor/lib/libarcsoft_antishaking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_antishaking.so \
@@ -386,23 +366,14 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/leeco/x2/proprietary/vendor/lib/libois_bu63165.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_bu63165.so \
     vendor/leeco/x2/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libqcproximity.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcproximity.so \
     vendor/leeco/x2/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/leeco/x2/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/leeco/x2/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libual.so:$(TARGET_COPY_OUT_VENDOR)/lib/libual.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libualutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libualutil.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libusndroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libusndroute.so \
     vendor/leeco/x2/proprietary/vendor/lib64/hw/fingerprint.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.qcom.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmdtp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdtp.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmdtp_crypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdtp_crypto.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmm-dspp-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-dspp-utils.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmm-qdcm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm-diag.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libqcproximity.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcproximity.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libqfp-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp-service.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libual.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libual.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libualutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libualutil.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libusndroute.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libusndroute.so \
     vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qfp.wakeup.so
 
 PRODUCT_PACKAGES += \
