@@ -450,9 +450,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/leeco/s2/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/leeco/s2/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
+    vendor/leeco/s2/proprietary/vendor/bin/DR_AP_Service:system/vendor/bin/DR_AP_Service \
     vendor/leeco/s2/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/leeco/s2/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
-    vendor/leeco/s2/proprietary/vendor/bin/DR_AP_Service:system/vendor/bin/DR_AP_Service \
     vendor/leeco/s2/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/leeco/s2/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/leeco/s2/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
@@ -489,6 +489,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/leeco/s2/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/leeco/s2/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
+    vendor/leeco/s2/proprietary/vendor/etc/UEISettings:system/vendor/etc/UEISettings \
     vendor/leeco/s2/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
@@ -529,7 +530,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/leeco/s2/proprietary/vendor/etc/perf/perf-profile0.conf:system/vendor/etc/perf/perf-profile0.conf \
     vendor/leeco/s2/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
-    vendor/leeco/s2/proprietary/vendor/etc/UEISettings:system/vendor/etc/UEISettings \
     vendor/leeco/s2/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/leeco/s2/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/leeco/s2/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:system/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so \
@@ -873,15 +873,15 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0 \
     libthermalclient \
     QtiTelephonyService \
-    ims \
-    imssettings \
     uceShimService \
     CNEService \
     dpmserviceapp \
+    ims \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \
     UEIQuicksetSDKLeTV \
+    imssettings \
     QtiTelephonyServicelibrary \
     qcrilhook \
     qti-telephony-common
