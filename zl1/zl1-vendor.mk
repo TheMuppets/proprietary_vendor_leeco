@@ -65,15 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so \
     vendor/leeco/zl1/proprietary/vendor/firmware/nfc_test.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc_test.bin \
     vendor/leeco/zl1/proprietary/vendor/firmware/sii6400_wihd_mhl.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/sii6400_wihd_mhl.fw \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b00 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b03 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b04 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b05 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b06 \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mbn \
-    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
     vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/zl0/a530_zap.b00 \
     vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/zl0/a530_zap.b01 \
     vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/zl0/a530_zap.b02 \
@@ -257,8 +248,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_zsl_video.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libmdtp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdtp.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libmdtp_crypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdtp_crypto.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx298.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_imx298_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx298_ofilm.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_imx298_ofilm_ak.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx298_ofilm_ak.so \
@@ -267,7 +256,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_ov8865_plus_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8865_plus_eeprom.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_ov8865_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8865_sunny.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx298_eeprom.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/hw/gxfingerprint5118m.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gxfingerprint5118m.default.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libfp_client5118m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_client5118m.so \
