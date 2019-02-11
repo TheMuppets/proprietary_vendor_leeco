@@ -448,6 +448,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/leeco/s2/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/leeco/s2/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
+    vendor/leeco/s2/proprietary/vendor/bin/port-bridge:system/vendor/bin/port-bridge \
     vendor/leeco/s2/proprietary/vendor/bin/power_off_alarm:system/vendor/bin/power_off_alarm \
     vendor/leeco/s2/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/leeco/s2/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
