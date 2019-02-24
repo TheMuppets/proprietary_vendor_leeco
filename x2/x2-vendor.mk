@@ -15,11 +15,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/workspaceFile.qwsp \
+    vendor/leeco/x2/proprietary/vendor/etc/ad_calib.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/ad_calib.cfg \
     vendor/leeco/x2/proprietary/vendor/etc/ad_calib_x2.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/ad_calib_x2.cfg \
     vendor/leeco/x2/proprietary/vendor/etc/camera/imx230_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx230_chromatix.xml \
     vendor/leeco/x2/proprietary/vendor/etc/camera/imx230_lg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx230_lg_chromatix.xml \
     vendor/leeco/x2/proprietary/vendor/etc/camera/imx230_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx230_sunny_chromatix.xml \
-    vendor/leeco/x2/proprietary/vendor/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
+    vendor/leeco/x2/proprietary/vendor/etc/camera/ov4688_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_chromatix.xml \
     vendor/leeco/x2/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:$(TARGET_COPY_OUT_VENDOR)/etc/drc/drc_cfg_AZ.txt \
     vendor/leeco/x2/proprietary/vendor/etc/dts/dts-m6m8-lic.key:$(TARGET_COPY_OUT_VENDOR)/etc/dts/dts-m6m8-lic.key \
     vendor/leeco/x2/proprietary/vendor/firmware/a530_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b00 \
@@ -49,6 +50,17 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt.xml \
     vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
     vendor/leeco/x2/proprietary/vendor/bin/charger:$(TARGET_COPY_OUT_VENDOR)/bin/charger \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/max_plus/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/max_plus/MTP_Bluetooth_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/max_plus/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/max_plus/MTP_General_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/max_plus/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/max_plus/MTP_Global_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/max_plus/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/max_plus/MTP_Handset_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/max_plus/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/max_plus/MTP_Hdmi_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/max_plus/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/max_plus/MTP_Headset_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/max_plus/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/max_plus/MTP_Speaker_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
+    vendor/leeco/x2/proprietary/vendor/firmware/max_plus/a530_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/max_plus/a530_zap.b01 \
+    vendor/leeco/x2/proprietary/vendor/firmware/max_plus/a530_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/max_plus/a530_zap.elf \
+    vendor/leeco/x2/proprietary/vendor/firmware/max_plus/a530_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/max_plus/a530_zap.mdt \
     vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibrary.so \
     vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230_lg_PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230_lg_PdafLibrary.so \
     vendor/leeco/x2/proprietary/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230_sunny_PdafLibrary.so \
@@ -96,6 +108,26 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx230_video_hdr.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_zsl_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx230_zsl_preview_lc898212xd.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_imx230_zsl_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx230_zsl_video_lc898212xd.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_common.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_cpp_hfr_120.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_cpp_hfr_60.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_cpp_hfr_90.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_cpp_liveshot.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_cpp_preview.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_cpp_snapshot.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_cpp_video.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_default_video.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_hfr_120.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_hfr_120_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_hfr_120_ad5823.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_hfr_60.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_hfr_60_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_hfr_60_ad5823.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_hfr_90.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_hfr_90_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_hfr_90_ad5823.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_postproc.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_preview.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_snapshot.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_zsl_preview_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_zsl_preview_ad5823.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov4688_zsl_video_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov4688_zsl_video_ad5823.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_ofilm_common.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_ofilm_cpp_ds_chromatix.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_ofilm_cpp_hfr_120.so \
@@ -127,6 +159,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_imx230.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx230.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_imx230_lg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx230_lg.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_imx230_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx230_sunny.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov4688.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4688.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4688_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sony_imx230_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx230_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sony_imx230_plus_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx230_plus_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libois_bu63165.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_bu63165.so \
