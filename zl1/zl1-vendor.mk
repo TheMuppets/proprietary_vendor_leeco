@@ -64,19 +64,13 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
     vendor/leeco/zl1/proprietary/vendor/etc/camera/ov8865_ofilm_plus_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov8865_ofilm_plus_chromatix.xml \
     vendor/leeco/zl1/proprietary/vendor/etc/camera/ov8865_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov8865_sunny_chromatix.xml \
-    vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX230_lg_PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230_lg_PdafLibrary.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX230_sunny_PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230_sunny_PdafLibrary.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX298PdafLibrary.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298_ofilm_PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX298_ofilm_PdafLibrary.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298_ofilm_ak_PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX298_ofilm_ak_PdafLibrary.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298_truly_ak_PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX298_truly_ak_PdafLibrary.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libactuator_bu63165.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu63165.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libactuator_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libactuator_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libactuator_dw9800w.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9800w.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libactuator_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898122.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libactuator_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898212xd.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_1080p_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx298_1080p_preview.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_1080p_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx298_1080p_snapshot.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_1080p_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx298_1080p_video.so \
