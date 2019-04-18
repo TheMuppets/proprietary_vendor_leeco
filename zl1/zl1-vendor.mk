@@ -26,10 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/etc/ad_calib_le_zl1.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/ad_calib_le_zl1.cfg \
     vendor/leeco/zl1/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:$(TARGET_COPY_OUT_VENDOR)/etc/drc/drc_cfg_AZ.txt \
     vendor/leeco/zl1/proprietary/vendor/etc/dts/dts-m6m8-lic.key:$(TARGET_COPY_OUT_VENDOR)/etc/dts/dts-m6m8-lic.key \
-    vendor/leeco/zl1/proprietary/vendor/firmware/Signedrompatch_v20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Signedrompatch_v20.bin \
-    vendor/leeco/zl1/proprietary/vendor/firmware/Signedrompatch_v21.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Signedrompatch_v21.bin \
-    vendor/leeco/zl1/proprietary/vendor/firmware/Signedrompatch_v24.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Signedrompatch_v24.bin \
-    vendor/leeco/zl1/proprietary/vendor/firmware/Signedrompatch_v30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Signedrompatch_v30.bin \
     vendor/leeco/zl1/proprietary/vendor/firmware/a530_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b00 \
     vendor/leeco/zl1/proprietary/vendor/firmware/zl0/a530_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/zl0/a530_zap.b00 \
     vendor/leeco/zl1/proprietary/vendor/firmware/a530_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b01 \
@@ -51,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/firmware/cppf.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.mdt \
     vendor/leeco/zl1/proprietary/vendor/firmware/cyccg.cybin:$(TARGET_COPY_OUT_VENDOR)/firmware/cyccg.cybin \
     vendor/leeco/zl1/proprietary/vendor/firmware/cyccg_table.cybin:$(TARGET_COPY_OUT_VENDOR)/firmware/cyccg_table.cybin \
-    vendor/leeco/zl1/proprietary/vendor/firmware/nfc_test.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc_test.bin \
     vendor/leeco/zl1/proprietary/vendor/firmware/sii6400_wihd_mhl.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/sii6400_wihd_mhl.fw \
     vendor/leeco/zl1/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
     vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml \
