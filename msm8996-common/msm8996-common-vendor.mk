@@ -244,16 +244,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
     vendor/leeco/msm8996-common/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
     vendor/leeco/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/leeco/msm8996-common/proprietary/vendor/firmware/modem_pr/mbn_upgrade_info:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_pr/mbn_upgrade_info \
-    vendor/leeco/msm8996-common/proprietary/vendor/firmware/modem_pr/mcfg_sw_att.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_pr/mcfg_sw_att.mbn \
-    vendor/leeco/msm8996-common/proprietary/vendor/firmware/modem_pr/mcfg_sw_cmcc.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_pr/mcfg_sw_cmcc.mbn \
-    vendor/leeco/msm8996-common/proprietary/vendor/firmware/modem_pr/mcfg_sw_ct.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_pr/mcfg_sw_ct.mbn \
-    vendor/leeco/msm8996-common/proprietary/vendor/firmware/modem_pr/mcfg_sw_cu.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_pr/mcfg_sw_cu.mbn \
-    vendor/leeco/msm8996-common/proprietary/vendor/firmware/modem_pr/mcfg_sw_others.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_pr/mcfg_sw_others.mbn \
-    vendor/leeco/msm8996-common/proprietary/vendor/firmware/modem_pr/mcfg_sw_reliance.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_pr/mcfg_sw_reliance.mbn \
-    vendor/leeco/msm8996-common/proprietary/vendor/firmware/modem_pr/mcfg_sw_sprint.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_pr/mcfg_sw_sprint.mbn \
-    vendor/leeco/msm8996-common/proprietary/vendor/firmware/modem_pr/mcfg_sw_tmo.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_pr/mcfg_sw_tmo.mbn \
-    vendor/leeco/msm8996-common/proprietary/vendor/firmware/modem_pr/mcfg_sw_verizon.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_pr/mcfg_sw_verizon.mbn \
     vendor/leeco/msm8996-common/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
