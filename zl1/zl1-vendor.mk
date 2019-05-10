@@ -236,5 +236,4 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_ov8865_plus_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8865_plus_eeprom.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_ov8865_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8865_sunny.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx298_eeprom.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmm-qdcm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm-diag.so
