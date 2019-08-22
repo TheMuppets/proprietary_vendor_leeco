@@ -1,4 +1,3 @@
-# Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -51,6 +50,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/firmware/sii6400_wihd_mhl.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/sii6400_wihd_mhl.fw \
     vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml \
     vendor/leeco/zl1/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml \
+    vendor/leeco/zl1/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/leeco/zl1/proprietary/vendor/lib64/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/hw/gxfingerprint5118m.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gxfingerprint5118m.default.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libfp_client5118m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_client5118m.so \
