@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/leeco/zl1
 
 PRODUCT_COPY_FILES += \
+    vendor/leeco/zl1/proprietary/vendor/bin/charger:$(TARGET_COPY_OUT_VENDOR)/bin/charger \
     vendor/leeco/zl1/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
     vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/leeco/zl1/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
