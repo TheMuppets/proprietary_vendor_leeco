@@ -61,6 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libfpnav5118m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpnav5118m.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libfpservice5118m.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice5118m.so \
     vendor/leeco/zl1/proprietary/vendor/bin/charger:$(TARGET_COPY_OUT_VENDOR)/bin/charger \
+    vendor/leeco/zl1/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.0-service.leeco_zl1:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.0-service.leeco_zl1 \
     vendor/leeco/zl1/proprietary/vendor/etc/camera/imx298_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_chromatix.xml \
     vendor/leeco/zl1/proprietary/vendor/etc/camera/imx298_ofilm_ak_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_ofilm_ak_chromatix.xml \
     vendor/leeco/zl1/proprietary/vendor/etc/camera/imx298_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_ofilm_chromatix.xml \
@@ -68,6 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
     vendor/leeco/zl1/proprietary/vendor/etc/camera/ov8865_ofilm_plus_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov8865_ofilm_plus_chromatix.xml \
     vendor/leeco/zl1/proprietary/vendor/etc/camera/ov8865_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov8865_sunny_chromatix.xml \
+    vendor/leeco/zl1/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.0-service.leeco_zl1.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.0-service.leeco_zl1.rc \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX298PdafLibrary.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298_ofilm_PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX298_ofilm_PdafLibrary.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298_ofilm_ak_PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX298_ofilm_ak_PdafLibrary.so \
@@ -250,3 +252,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx298_eeprom.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmm-qdcm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm-diag.so
+
+PRODUCT_PACKAGES += \
+    libgxbndr
