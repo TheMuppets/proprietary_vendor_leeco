@@ -83,6 +83,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/etc/pp_calib_data_boe_nt35596s_fhd_vdo_dsi_panel.xml:system/etc/pp_calib_data_boe_nt35596s_fhd_vdo_dsi_panel.xml \
     vendor/leeco/s2/proprietary/etc/pp_calib_data_boe_nt36760_fhd_cmd_dsi_panel.xml:system/etc/pp_calib_data_boe_nt36760_fhd_cmd_dsi_panel.xml \
     vendor/leeco/s2/proprietary/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml:system/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml \
+    vendor/leeco/s2/proprietary/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ap2.xml:system/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ap2.xml \
+    vendor/leeco/s2/proprietary/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ghost.xml:system/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ghost.xml \
     vendor/leeco/s2/proprietary/etc/settings/mono_qcom.cnt:system/etc/settings/mono_qcom.cnt \
     vendor/leeco/s2/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
     vendor/leeco/s2/proprietary/lib/libamipengine.so:system/lib/libamipengine.so \
