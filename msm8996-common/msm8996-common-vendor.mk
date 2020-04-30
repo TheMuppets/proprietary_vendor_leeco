@@ -661,6 +661,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     QtiTelephonyService \
+    UEIQuicksetSDKLeTV \
     uceShimService \
     WfdService \
     com.qualcomm.location \
@@ -669,7 +670,6 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
-    UEIQuicksetSDKLeTV \
     PowerOffAlarm \
     dpmserviceapp \
     WfdCommon

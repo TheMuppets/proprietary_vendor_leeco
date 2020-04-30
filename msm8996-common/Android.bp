@@ -87,6 +87,16 @@ android_app_import {
 }
 
 android_app_import {
+	name: "UEIQuicksetSDKLeTV",
+	owner: "leeco",
+	apk: "proprietary/app/UEIQuicksetSDKLeTV/UEIQuicksetSDKLeTV.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
 	name: "uceShimService",
 	owner: "leeco",
 	apk: "proprietary/app/uceShimService/uceShimService.apk",
@@ -167,17 +177,6 @@ android_app_import {
 	owner: "leeco",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
 	certificate: ":timeservice_app_cert-legacy-um",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "UEIQuicksetSDKLeTV",
-	owner: "leeco",
-	apk: "proprietary/vendor/app/UEIQuicksetSDKLeTV/UEIQuicksetSDKLeTV.apk",
-	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
