@@ -797,6 +797,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.display.color@1.0 \
     QtiTelephonyService \
+    UEIQuicksetSDKLeTV \
     uceShimService \
     CNEService \
     dpmserviceapp \
@@ -804,7 +805,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \
-    UEIQuicksetSDKLeTV \
     imssettings \
     QPerformance \
     QtiTelephonyServicelibrary \
