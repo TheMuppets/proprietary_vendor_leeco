@@ -808,8 +808,6 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     TimeService \
     imssettings \
-    QPerformance \
     QtiTelephonyServicelibrary \
-    UxPerformance \
     qcrilhook \
     qti-telephony-common
