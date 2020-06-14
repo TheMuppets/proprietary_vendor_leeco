@@ -77,16 +77,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "QtiTelephonyService",
-	owner: "leeco",
-	apk: "proprietary/app/QtiTelephonyService/QtiTelephonyService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "UEIQuicksetSDKLeTV",
 	owner: "leeco",
 	apk: "proprietary/app/UEIQuicksetSDKLeTV/UEIQuicksetSDKLeTV.apk",
@@ -111,17 +101,6 @@ android_app_import {
 	name: "com.qualcomm.location",
 	owner: "leeco",
 	apk: "proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "qcrilmsgtunnel",
-	owner: "leeco",
-	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -163,6 +142,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "QtiTelephonyService",
+	owner: "leeco",
+	apk: "proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "uceShimService",
 	owner: "leeco",
 	apk: "proprietary/product/app/uceShimService/uceShimService.apk",
@@ -181,6 +171,18 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "qcrilmsgtunnel",
+	owner: "leeco",
+	apk: "proprietary/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
 	product_specific: true,
 }
 
