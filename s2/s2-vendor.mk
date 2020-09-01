@@ -859,5 +859,4 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     QtiTelephonyServicelibrary \
-    qcrilhook \
-    qti-telephony-common
+    qcrilhook
