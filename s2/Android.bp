@@ -183,9 +183,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "uceShimService",
+	name: "PowerOffAlarm",
 	owner: "leeco",
-	apk: "proprietary/product/app/uceShimService/uceShimService.apk",
+	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -194,9 +194,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PowerOffAlarm",
+	name: "uceShimService",
 	owner: "leeco",
-	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
+	apk: "proprietary/product/app/uceShimService/uceShimService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -237,20 +237,6 @@ android_app_import {
 		enabled: false,
 	},
 	privileged: true,
-	product_specific: true,
-}
-
-dex_import {
-	name: "QtiTelephonyServicelibrary",
-	owner: "leeco",
-	jars: ["proprietary/product/framework/QtiTelephonyServicelibrary.jar"],
-	product_specific: true,
-}
-
-dex_import {
-	name: "qcrilhook",
-	owner: "leeco",
-	jars: ["proprietary/product/framework/qcrilhook.jar"],
 	product_specific: true,
 }
 
