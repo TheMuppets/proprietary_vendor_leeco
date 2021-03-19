@@ -108,7 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib/libmpstream.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpstream.so \
     vendor/leeco/s2/proprietary/lib/libmputility.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmputility.so \
     vendor/leeco/s2/proprietary/lib/libstlport.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstlport.so \
-    vendor/leeco/s2/proprietary/lib64/hw/fingerprint.vendor.msm8952.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/fingerprint.vendor.msm8952.so \
+    vendor/leeco/s2/proprietary/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/fingerprint.default.so \
     vendor/leeco/s2/proprietary/lib64/hw/gxfingerprint.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gxfingerprint.default.so \
     vendor/leeco/s2/proprietary/lib64/libfp_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfp_client.so \
     vendor/leeco/s2/proprietary/lib64/libfp_gf_intejni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfp_gf_intejni.so \
