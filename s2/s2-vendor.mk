@@ -88,6 +88,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml \
     vendor/leeco/s2/proprietary/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ap2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ap2.xml \
     vendor/leeco/s2/proprietary/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ghost.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ghost.xml \
+    vendor/leeco/s2/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/leeco/s2/proprietary/etc/settings/mono_qcom.cnt:$(TARGET_COPY_OUT_SYSTEM)/etc/settings/mono_qcom.cnt \
     vendor/leeco/s2/proprietary/lib/libLetvCameraImageSDK.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libLetvCameraImageSDK.so \
     vendor/leeco/s2/proprietary/lib/libamipengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libamipengine.so \
